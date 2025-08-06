@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Michael Aguilar</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://michael-aguilar.com/categories/</link>
     <description>Recent content in Categories on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://michael-aguilar.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/categories/ai/</link>
+      <link>https://michael-aguilar.com/categories/ai/</link>
       <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ai/</guid>
+      <guid>https://michael-aguilar.com/categories/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Working</title>
-      <link>http://localhost:1313/categories/working/</link>
+      <link>https://michael-aguilar.com/categories/working/</link>
       <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/working/</guid>
+      <guid>https://michael-aguilar.com/categories/working/</guid>
       <description></description>
     </item>
     <item>
       <title>AI Code</title>
-      <link>http://localhost:1313/categories/ai-code/</link>
+      <link>https://michael-aguilar.com/categories/ai-code/</link>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ai-code/</guid>
+      <guid>https://michael-aguilar.com/categories/ai-code/</guid>
       <description></description>
     </item>
     <item>
       <title>Announcements</title>
-      <link>http://localhost:1313/categories/announcements/</link>
+      <link>https://michael-aguilar.com/categories/announcements/</link>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/announcements/</guid>
+      <guid>https://michael-aguilar.com/categories/announcements/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorials</title>
-      <link>http://localhost:1313/categories/tutorials/</link>
+      <link>https://michael-aguilar.com/categories/tutorials/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/tutorials/</guid>
+      <guid>https://michael-aguilar.com/categories/tutorials/</guid>
       <description></description>
     </item>
   </channel>

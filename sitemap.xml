@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/ai/</loc>
+    <loc>https://michael-aguilar.com/categories/ai/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ai-changing-jobs/</loc>
+    <loc>https://michael-aguilar.com/posts/ai-changing-jobs/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://michael-aguilar.com/categories/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://michael-aguilar.com/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://michael-aguilar.com/posts/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/working/</loc>
+    <loc>https://michael-aguilar.com/categories/working/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ai-code/</loc>
+    <loc>https://michael-aguilar.com/categories/ai-code/</loc>
     <lastmod>2025-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/announcements/</loc>
+    <loc>https://michael-aguilar.com/categories/announcements/</loc>
     <lastmod>2025-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/building-reliable-ai-systems-through-rigorous-process/</loc>
+    <loc>https://michael-aguilar.com/posts/building-reliable-ai-systems-through-rigorous-process/</loc>
     <lastmod>2025-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ai-development-good-and-bad/</loc>
+    <loc>https://michael-aguilar.com/posts/ai-development-good-and-bad/</loc>
     <lastmod>2025-08-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/generative-ai-tutorial/</loc>
+    <loc>https://michael-aguilar.com/posts/generative-ai-tutorial/</loc>
     <lastmod>2025-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tutorials/</loc>
+    <loc>https://michael-aguilar.com/categories/tutorials/</loc>
     <lastmod>2025-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://michael-aguilar.com/tags/</loc>
   </url>
 </urlset>
