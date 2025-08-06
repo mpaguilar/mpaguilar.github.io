@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael Aguilar</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Michael Aguilar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Doesn&#39;t Eliminate Jobs, It Changes Them</title>
+      <link>http://localhost:1313/posts/ai-changing-jobs/</link>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-changing-jobs/</guid>
+      <description>&lt;h2 id=&#34;the-real-talk-about-ai-and-jobs&#34;&gt;The Real Talk About AI and Jobs&lt;/h2&gt;&#xA;&lt;p&gt;You&amp;rsquo;ve heard the panic: &amp;ldquo;AI&amp;rsquo;s coming for your job!&amp;rdquo; Headlines alternate between &amp;ldquo;robots will steal everything&amp;rdquo; and &amp;ldquo;AI utopia is here!&amp;rdquo; Like most tech hype cycles, the truth&amp;rsquo;s way less dramatic - and way more interesting.&lt;/p&gt;&#xA;&lt;h3 id=&#34;jobs-shift-not-vanish&#34;&gt;Jobs Shift, Not Vanish&lt;/h3&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s start with reality: AI doesn&amp;rsquo;t eliminate jobs, it changes them. Remember when spreadsheets killed ledger books? Accountants didn&amp;rsquo;t disappear - they stopped adding columns of numbers by hand and started doing actual analysis. Same pattern&amp;rsquo;s playing out now.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building Reliable AI Systems Through Rigorous Process</title>
+      <link>http://localhost:1313/posts/building-reliable-ai-systems-through-rigorous-process/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/building-reliable-ai-systems-through-rigorous-process/</guid>
+      <description>&lt;p&gt;I recently built a production-ready application entirely with AI assistance, 100% written by the AI - not as a proof-of-concept, but as a functional tool designed to solve complex workflow problems.&lt;/p&gt;&#xA;&lt;p&gt;It wasn&amp;rsquo;t magic, it was work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI development: the good and bad</title>
+      <link>http://localhost:1313/posts/ai-development-good-and-bad/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-development-good-and-bad/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AI-assisted development accelerates both coding speed and error propagation, with risks like cascading mistakes and design flaws magnified by AI&amp;rsquo;s context limitations, akin to Knight Capital&amp;rsquo;s $500M human-error-driven collapse.&lt;/li&gt;&#xA;&lt;li&gt;Real-world failures (e.g., Knight Capital) stem from process gaps, not technology; AI intensifies this by compressing multi-year human error patterns—like developers Alice, Bob, and Charlie inheriting undocumented code under time pressure—into hours or days.&lt;/li&gt;&#xA;&lt;li&gt;AI lacks persistent context, acting as a &amp;ldquo;new developer&amp;rdquo; per request, which forgets safeguards, amplifies poor documentation, and misses architectural pitfalls unless explicitly guided by experienced oversight.&lt;/li&gt;&#xA;&lt;li&gt;Defensive coding practices (e.g., explicit error checks, copy-before-move for files) are critical since AI won&amp;rsquo;t self-advocate for safeguards—users must enforce quality control as architects and reviewers.&lt;/li&gt;&#xA;&lt;li&gt;While AI democratizes development, inexperienced users often overlook foundational pitfalls, making seasoned judgment essential to prevent small oversights from escalating at machine speed.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Generative AI Tutorial</title>
+      <link>http://localhost:1313/posts/generative-ai-tutorial/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/generative-ai-tutorial/</guid>
+      <description>&lt;h2 id=&#34;who-is-this-for&#34;&gt;Who is this for?&lt;/h2&gt;&#xA;&lt;p&gt;Are you curious about how AI can enhance your work, but feel overwhelmed by the technical jargon? If so, you’re in the right place!&lt;/p&gt;&#xA;&lt;p&gt;When you last interacted with AI, did it seem like a mysterious magic box, or did you feel empowered to mold it to your needs?&lt;/p&gt;&#xA;&lt;p&gt;In this primer, we&amp;rsquo;re going to remove the magic, and help you understand it as a tool you can manipulate.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

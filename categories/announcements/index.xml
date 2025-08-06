@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Announcements on Michael Aguilar</title>
+    <link>http://localhost:1313/categories/announcements/</link>
+    <description>Recent content in Announcements on Michael Aguilar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Reliable AI Systems Through Rigorous Process</title>
+      <link>http://localhost:1313/posts/building-reliable-ai-systems-through-rigorous-process/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/building-reliable-ai-systems-through-rigorous-process/</guid>
+      <description>&lt;p&gt;I recently built a production-ready application entirely with AI assistance, 100% written by the AI - not as a proof-of-concept, but as a functional tool designed to solve complex workflow problems.&lt;/p&gt;&#xA;&lt;p&gt;It wasn&amp;rsquo;t magic, it was work.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

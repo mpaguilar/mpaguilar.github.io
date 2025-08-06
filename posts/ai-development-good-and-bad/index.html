@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AI development: the good and bad - Michael Aguilar</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Michael Aguilar" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Michael Aguilar</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">AI development: the good and bad</h1>
+			<div class="post__meta meta"><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/ai-code/" rel="category">AI Code</a>
+	</span>
+</div></div>
+		</header>
+		<div class="content post__content clearfix">
+			<h2 id="overview">Overview</h2>
+<ul>
+<li>AI-assisted development accelerates both coding speed and error propagation, with risks like cascading mistakes and design flaws magnified by AI&rsquo;s context limitations, akin to Knight Capital&rsquo;s $500M human-error-driven collapse.</li>
+<li>Real-world failures (e.g., Knight Capital) stem from process gaps, not technology; AI intensifies this by compressing multi-year human error patterns—like developers Alice, Bob, and Charlie inheriting undocumented code under time pressure—into hours or days.</li>
+<li>AI lacks persistent context, acting as a &ldquo;new developer&rdquo; per request, which forgets safeguards, amplifies poor documentation, and misses architectural pitfalls unless explicitly guided by experienced oversight.</li>
+<li>Defensive coding practices (e.g., explicit error checks, copy-before-move for files) are critical since AI won&rsquo;t self-advocate for safeguards—users must enforce quality control as architects and reviewers.</li>
+<li>While AI democratizes development, inexperienced users often overlook foundational pitfalls, making seasoned judgment essential to prevent small oversights from escalating at machine speed.</li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>There is a lot of discussion about using AI for development. Much of it is over-stated hype, either for or against.</p>
+<p>&ldquo;AI only turns out garbage&rdquo; is what some people will tell you.</p>
+<p>&ldquo;AI will replace developers&rdquo; is what others will say.</p>
+<p>Like most things, the truth is somewhere in-between.</p>
+<h2 id="summary">Summary</h2>
+<p>AI-assisted development can help create code faster, but pitfalls like amplified design flaws and cascading errors demand careful handling</p>
+<p>This article cuts through the hype by showing how unchecked AI use mirrors real-world failures like Knight Capital&rsquo;s $500M loss (caused by human process gaps, not technology).</p>
+<p>Even skilled developers like &ldquo;Alice, Bob, and Charlie&rdquo; introduce subtle mistakes when inheriting code under time pressure, and AI accelerates these risks by acting like a new developer every time you hit &ldquo;enter&rdquo;—forgetting context, skipping safeguards, and magnifying poor documentation or rushed decisions.</p>
+<p>It is important that <em>you</em> need to enforce defensive practices (like file operation safeguards and explicit error checks) while juggling roles as architect, reviewer, and quality gatekeeper to prevent small oversights from exploding at machine speed.</p>
+<h3 id="knight-capital-group">Knight Capital Group</h3>
+<p>In 2012, due to a poor code rollout, Knight Capital Group lost almost a half-billion dollars in less than an hour. This ultimately led to the company folding.</p>
+<p>There was no AI involved, it was strictly a human error. They lacked proper controls and testing.</p>
+<p>This story is used to illustrate a point: bad code and practices aren&rsquo;t exclusive to AI. Many of the horror stories you read about in the news have been happening - are still happening - in situations where AI isn&rsquo;t involved, at all.</p>
+<p>AI accelerates development flow, including mistakes. Knight Capital didn&rsquo;t fail because of a single mistake. It was a series of mistakes and omissions in technology and processes which led to that final mistake. The same thing can happen when using AI.</p>
+<p>Human errors cascade in slow motion, now let&rsquo;s see how AI accelerates that pattern.</p>
+<h2 id="a-tale-of-three-developers">A tale of three developers</h2>
+<p>Let&rsquo;s dive a little deeper into a normal development flow to give us a framework for discussing AI-driven development.</p>
+<p>Consider three developers: Alice, Bob, and Charlie.</p>
+<p>All three are experienced senior developers. They&rsquo;re all good with algorithms, know how to structure code properly, understand the company&rsquo;s problem domain, and just generally all-around experts. They&rsquo;re the kind of developers every company wants to hire.</p>
+<p>They&rsquo;re also people. They have different specialties, with some overlap. For example, Alice may be great with Airflow, while Bob and Charlie have only some experience with it. Bob and Charlie also have their own specialties.</p>
+<p>They all have their strengths and weaknesses, with some overlap. They all have their own coding styles, and their own approaches to solving problems.</p>
+<p>All three are also under time pressures to produce code quickly. They wouldn&rsquo;t necessarily review the entire codebase, formulate a comprehensive plan, and then make changes. They&rsquo;d use what is readily and easily available.</p>
+<h3 id="alice-writes-some-code">Alice writes some code</h3>
+<p>Near the start of a project, Alice is asked to write a large amount of code to satisfy a major requirement. It involves Airflow, which is her specialty, so the code is written quickly and efficiently. It is rolled out into production, and everyone is happy.</p>
+<h3 id="bob-writes-some-code">Bob writes some code</h3>
+<p>About six months pass, and the customer has a new feature request. Alice isn&rsquo;t available. Maybe she&rsquo;s on another project, or got another job&hellip;it doesn&rsquo;t matter, Bob is assigned the task of implementing the feature. He&rsquo;s not very familiar with the libraries being used, but he&rsquo;s able to look up some examples. He checks in some code that works, and everyone is happy.</p>
+<h3 id="charlie-writes-some-code">Charlie writes some code</h3>
+<p>About six months pass, and the customer has a yet another new feature request. Bob isn&rsquo;t available. That&rsquo;s just something that happens during ongoing development. Charlie is given the task. He doesn&rsquo;t have much time, but he&rsquo;s good at his job and he checks in code that works, and everyone is happy.</p>
+<h3 id="what-is-hidden-in-this-example">What is hidden in this example</h3>
+<p>All three developers may be experts, but there is a lot of room for mistakes in that example.</p>
+<p>When Alice wrote the original code, would her design accommodate the features being requested in the future? Was her documentation so comprehensive that a future developer could pick up where she left off?</p>
+<p>Bob isn&rsquo;t an expert in the specific technology. Did Alice use some advanced techniques? Are there pitfalls in the approach that Bob wouldn&rsquo;t know to consider?</p>
+<p>Charlie doesn&rsquo;t have much time. Maybe he was assigned the task late on Friday, and it&rsquo;s due early the next week. He has other obligations, professional and personal, to consider. Would he look for and read related material? Would he review all of the associated code and tests?</p>
+<h2 id="ai-accelerates-the-development-process">AI accelerates the development process</h2>
+<p>What was just described is pretty typical of any application developed over time. Using AI compresses the amount of time taken. What may have occurred over a year with human developers can happen in weeks, days, or even hours using AI.</p>
+<p>When you&rsquo;re using AI for development, every time you hit the &ldquo;Enter&rdquo; key it has been six months, and it is a new developer. Because AI &ldquo;forgets&rdquo; between requests, it’s like handing off to a new developer with incomplete docs.</p>
+<p>The AI has only the code, the tests, the logs, change sets, any supporting documentation, and whatever is left in the context. If those things aren&rsquo;t provided, or are insufficient, then the AI will tend to make more mistakes.</p>
+<p>Much like a different developer working on existing code written by someone else, it doesn&rsquo;t have an internal &ldquo;picture&rdquo; of what it was &ldquo;thinking&rdquo; before. It doesn&rsquo;t have a style or approach that it uses consistently.</p>
+<p>Mistakes in design and code and omissions in process have a cumulative effect, whether it&rsquo;s the humans at Knight Capital, or your own AI-driven projects.</p>
+<h3 id="ai-amplifies-mistakes">AI amplifies mistakes</h3>
+<p>The development process can be greatly accelerated by using AI. That includes the good and bad.</p>
+<p>If the documentation is poor, or the API designed haphazardly, or there is insufficient logging for good troubleshooting - any of the things that good development process follows - then those omissions and failure accumulate, as well.</p>
+<p>Poor design or architecture choices early in the development process can result in the need for a major code refactor. An application which was started as a simple command-line application may not be structured to be a full-fledged web backend.</p>
+<p>In a &ldquo;normal&rdquo; development process, these mistakes may not be evident or noteworthy for weeks or months at a time. With an AI, these mistakes show up in minutes, hours, or days. A poor design choice can lead to refactoring major pieces of code in a matter of weeks.</p>
+<h2 id="defensive-ai-coding">Defensive AI coding</h2>
+<p>A recent news story was about someone who asked the AI to sort and move a bunch of files. This ended up failing and destroying the user&rsquo;s data.</p>
+<p>Just reading that scenario, there are at least a couple of problems.</p>
+<p>An obvious one is &ldquo;move files&rdquo;. Someone with more experience seldom moves files. They copy files, check the output, and <em>then</em> delete the source.</p>
+<p>Being a little more sophisticated is adding code which checks for success of operations before continuing. In other words, there would be a line or two of code which checked to see if the file was moved successfully, and exiting with an error if it wasn&rsquo;t.</p>
+<p>It is unlikely either of those things were done, or the AI was told to do them. The users wouldn&rsquo;t have the experience to know to ask. It&rsquo;s fine to think that the AI <em>should</em> have thought of it, but there&rsquo;s also people out there which would be frustrated with emitted code which seemed overly-complex.</p>
+<p>An AI won&rsquo;t advocate for itself. It is up to the user to ask for checks and safeguards, or provide their own.</p>
+<h3 id="experience-matters">Experience matters</h3>
+<p>It&rsquo;s great that AI is expanding development to more people. There is a lot of code that isn&rsquo;t written right now because it&rsquo;s too much effort, whether it&rsquo;s learning to code or finding someone who can do it.</p>
+<p>These new developers are going to end up learning about the pitfalls and problems of the development process, often the hard way.</p>
+<p>Someone with more experience, no matter how they gained it, will make fewer mistakes.</p>
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2025 Michael Aguilar.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
