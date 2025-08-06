@@ -6,35 +6,35 @@
     <description>Recent content in Posts on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Aug 2025 08:34:00 +0000</lastBuildDate>
     <atom:link href="https://michael-aguilar.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Doesn&#39;t Eliminate Jobs, It Changes Them</title>
-      <link>https://michael-aguilar.com/posts/ai-changing-jobs/</link>
-      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://michael-aguilar.com/posts/ai-changing-jobs/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;AI is not eliminating jobs but transforming them, similar to how spreadsheets changed accounting practices.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Many tedious tasks (e.g., formatting resumes, data entry) are being automated by AI, allowing workers to focus on more valuable aspects of their roles.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;As mundane tasks are automated, the remaining work becomes more valuable, emphasizing original thought, creativity, and complex decision-making.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;A marketing professional can now use AI to generate design options quickly, allowing them to focus on creative elements and strategy rather than repetitive tasks.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Professionals who do not adapt to using AI tools will fall behind competitors who leverage AI for efficiency and strategic focus.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;AI is here to take over time-consuming tasks, enabling workers to engage in more meaningful work. Success will depend on the ability to adapt and embrace these tools.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <link>https://michael-aguilar.com/posts/ai-doesnt-eliminate-jobs-it-changes-them/</link>
+      <pubDate>Tue, 05 Aug 2025 08:34:00 +0000</pubDate>
+      <guid>https://michael-aguilar.com/posts/ai-doesnt-eliminate-jobs-it-changes-them/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;AI is not eliminating jobs but transforming them, similar to how spreadsheets changed accounting practices.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Many tedious tasks (e.g., formatting resumes, data entry) are being automated by AI, allowing workers to focus on more valuable aspects of their roles.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;As mundane tasks are automated, the remaining work becomes more valuable, emphasizing original thought, creativity, and complex decision-making.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;A marketing professional can now use AI to generate design options quickly, allowing them to focus on creative elements and strategy rather than repetitive tasks.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Professionals who do not adapt to using AI tools will fall behind competitors who leverage AI for efficiency and strategic focus.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;AI is here to take over time-consuming tasks, enabling workers to engage in more meaningful work. Success will depend on the ability to adapt and embrace these tools.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Building Reliable AI Systems Through Rigorous Process</title>
       <link>https://michael-aguilar.com/posts/building-reliable-ai-systems-through-rigorous-process/</link>
-      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Aug 2025 12:16:00 +0000</pubDate>
       <guid>https://michael-aguilar.com/posts/building-reliable-ai-systems-through-rigorous-process/</guid>
       <description>&lt;p&gt;I recently built a production-ready application entirely with AI assistance, 100% written by the AI - not as a proof-of-concept, but as a functional tool designed to solve complex workflow problems.&lt;/p&gt;&#xA;&lt;p&gt;It wasn&amp;rsquo;t magic, it was work.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI development: the good and bad</title>
       <link>https://michael-aguilar.com/posts/ai-development-good-and-bad/</link>
-      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Aug 2025 09:44:00 +0000</pubDate>
       <guid>https://michael-aguilar.com/posts/ai-development-good-and-bad/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AI-assisted development accelerates both coding speed and error propagation, with risks like cascading mistakes and design flaws magnified by AI&amp;rsquo;s context limitations, akin to Knight Capital&amp;rsquo;s $500M human-error-driven collapse.&lt;/li&gt;&#xA;&lt;li&gt;Real-world failures (e.g., Knight Capital) stem from process gaps, not technology; AI intensifies this by compressing multi-year human error patterns—like developers Alice, Bob, and Charlie inheriting undocumented code under time pressure—into hours or days.&lt;/li&gt;&#xA;&lt;li&gt;AI lacks persistent context, acting as a &amp;ldquo;new developer&amp;rdquo; per request, which forgets safeguards, amplifies poor documentation, and misses architectural pitfalls unless explicitly guided by experienced oversight.&lt;/li&gt;&#xA;&lt;li&gt;Defensive coding practices (e.g., explicit error checks, copy-before-move for files) are critical since AI won&amp;rsquo;t self-advocate for safeguards—users must enforce quality control as architects and reviewers.&lt;/li&gt;&#xA;&lt;li&gt;While AI democratizes development, inexperienced users often overlook foundational pitfalls, making seasoned judgment essential to prevent small oversights from escalating at machine speed.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;AI-assisted development accelerates both coding speed and error propagation, with risks like cascading mistakes and design flaws magnified by AI&amp;rsquo;s context limitations, akin to Knight Capital&amp;rsquo;s $500M human-error-driven collapse.&lt;/li&gt;&#xA;&lt;li&gt;Real-world failures (e.g., Knight Capital) stem from process gaps, not technology; AI intensifies this by compressing multi-year human error patterns—like developers Alice, Bob, and Charlie inheriting undocumented code under time pressure—into hours or days.&lt;/li&gt;&#xA;&lt;li&gt;AI lacks persistent context, acting as a &amp;ldquo;new developer&amp;rdquo; per request, which forgets safeguards, amplifies poor documentation, and misses architectural pitfalls unless explicitly guided by experienced oversight.&lt;/li&gt;&#xA;&lt;li&gt;Defensive coding practices (e.g., explicit error checks, copy-before-move for files) are critical since AI won&amp;rsquo;t self-advocate for safeguards—users must enforce quality control as architects and reviewers.&lt;/li&gt;&#xA;&lt;li&gt;While AI democratizes development, inexperienced users often overlook foundational pitfalls, making seasoned judgment essential to prevent small oversights from escalating at machine speed.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Generative AI Tutorial</title>
       <link>https://michael-aguilar.com/posts/generative-ai-tutorial/</link>
-      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 04 Jul 2025 11:54:00 +0000</pubDate>
       <guid>https://michael-aguilar.com/posts/generative-ai-tutorial/</guid>
-      <description>&lt;h2 id=&#34;who-is-this-for&#34;&gt;Who is this for?&lt;/h2&gt;&#xA;&lt;p&gt;Are you curious about how AI can enhance your work, but feel overwhelmed by the technical jargon? If so, you’re in the right place!&lt;/p&gt;&#xA;&lt;p&gt;When you last interacted with AI, did it seem like a mysterious magic box, or did you feel empowered to mold it to your needs?&lt;/p&gt;&#xA;&lt;p&gt;In this primer, we&amp;rsquo;re going to remove the magic, and help you understand it as a tool you can manipulate.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Are you curious about how AI can enhance your work, but feel overwhelmed by the technical jargon? If so, you’re in the right place!&lt;/p&gt;&#xA;&lt;p&gt;When you last interacted with AI, did it seem like a mysterious magic box, or did you feel empowered to mold it to your needs?&lt;/p&gt;&#xA;&lt;p&gt;In this primer, we&amp;rsquo;re going to remove the magic, and help you understand it as a tool you can manipulate.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -6,21 +6,21 @@
     <description>Recent content in AI Code on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Aug 2025 12:16:00 +0000</lastBuildDate>
     <atom:link href="https://michael-aguilar.com/categories/ai-code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building Reliable AI Systems Through Rigorous Process</title>
       <link>https://michael-aguilar.com/posts/building-reliable-ai-systems-through-rigorous-process/</link>
-      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Aug 2025 12:16:00 +0000</pubDate>
       <guid>https://michael-aguilar.com/posts/building-reliable-ai-systems-through-rigorous-process/</guid>
       <description>&lt;p&gt;I recently built a production-ready application entirely with AI assistance, 100% written by the AI - not as a proof-of-concept, but as a functional tool designed to solve complex workflow problems.&lt;/p&gt;&#xA;&lt;p&gt;It wasn&amp;rsquo;t magic, it was work.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI development: the good and bad</title>
       <link>https://michael-aguilar.com/posts/ai-development-good-and-bad/</link>
-      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Aug 2025 09:44:00 +0000</pubDate>
       <guid>https://michael-aguilar.com/posts/ai-development-good-and-bad/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AI-assisted development accelerates both coding speed and error propagation, with risks like cascading mistakes and design flaws magnified by AI&amp;rsquo;s context limitations, akin to Knight Capital&amp;rsquo;s $500M human-error-driven collapse.&lt;/li&gt;&#xA;&lt;li&gt;Real-world failures (e.g., Knight Capital) stem from process gaps, not technology; AI intensifies this by compressing multi-year human error patterns—like developers Alice, Bob, and Charlie inheriting undocumented code under time pressure—into hours or days.&lt;/li&gt;&#xA;&lt;li&gt;AI lacks persistent context, acting as a &amp;ldquo;new developer&amp;rdquo; per request, which forgets safeguards, amplifies poor documentation, and misses architectural pitfalls unless explicitly guided by experienced oversight.&lt;/li&gt;&#xA;&lt;li&gt;Defensive coding practices (e.g., explicit error checks, copy-before-move for files) are critical since AI won&amp;rsquo;t self-advocate for safeguards—users must enforce quality control as architects and reviewers.&lt;/li&gt;&#xA;&lt;li&gt;While AI democratizes development, inexperienced users often overlook foundational pitfalls, making seasoned judgment essential to prevent small oversights from escalating at machine speed.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;AI-assisted development accelerates both coding speed and error propagation, with risks like cascading mistakes and design flaws magnified by AI&amp;rsquo;s context limitations, akin to Knight Capital&amp;rsquo;s $500M human-error-driven collapse.&lt;/li&gt;&#xA;&lt;li&gt;Real-world failures (e.g., Knight Capital) stem from process gaps, not technology; AI intensifies this by compressing multi-year human error patterns—like developers Alice, Bob, and Charlie inheriting undocumented code under time pressure—into hours or days.&lt;/li&gt;&#xA;&lt;li&gt;AI lacks persistent context, acting as a &amp;ldquo;new developer&amp;rdquo; per request, which forgets safeguards, amplifies poor documentation, and misses architectural pitfalls unless explicitly guided by experienced oversight.&lt;/li&gt;&#xA;&lt;li&gt;Defensive coding practices (e.g., explicit error checks, copy-before-move for files) are critical since AI won&amp;rsquo;t self-advocate for safeguards—users must enforce quality control as architects and reviewers.&lt;/li&gt;&#xA;&lt;li&gt;While AI democratizes development, inexperienced users often overlook foundational pitfalls, making seasoned judgment essential to prevent small oversights from escalating at machine speed.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
