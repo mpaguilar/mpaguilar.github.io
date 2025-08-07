@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://michael-aguilar.com/consulting/</loc>
+    <lastmod>2025-08-07T07:34:00+00:00</lastmod>
+  </url><url>
+    <loc>https://michael-aguilar.com/</loc>
+    <lastmod>2025-08-07T07:34:00+00:00</lastmod>
+  </url><url>
     <loc>https://michael-aguilar.com/ai/</loc>
     <lastmod>2025-08-05T08:34:00+00:00</lastmod>
   </url><url>
     <loc>https://michael-aguilar.com/ai/ai-doesnt-eliminate-jobs-it-changes-them/</loc>
-    <lastmod>2025-08-05T08:34:00+00:00</lastmod>
-  </url><url>
-    <loc>https://michael-aguilar.com/</loc>
     <lastmod>2025-08-05T08:34:00+00:00</lastmod>
   </url><url>
     <loc>https://michael-aguilar.com/ai/reliably-building-ai-systems/</loc>
@@ -17,19 +20,19 @@
     <loc>https://michael-aguilar.com/ai/ai-development-good-and-bad/</loc>
     <lastmod>2025-08-02T09:44:00+00:00</lastmod>
   </url><url>
-    <loc>https://michael-aguilar.com/job-hunting/job-hunting-and-the-hiring-manager/</loc>
+    <loc>https://michael-aguilar.com/job-hunting/the-hiring-manager/</loc>
     <lastmod>2025-07-31T14:34:00+00:00</lastmod>
   </url><url>
     <loc>https://michael-aguilar.com/job-hunting/</loc>
     <lastmod>2025-07-31T14:34:00+00:00</lastmod>
   </url><url>
-    <loc>https://michael-aguilar.com/job-hunting/job-hunting-and-recruiters/</loc>
+    <loc>https://michael-aguilar.com/job-hunting/recruiters/</loc>
     <lastmod>2025-07-31T14:34:00+00:00</lastmod>
   </url><url>
-    <loc>https://michael-aguilar.com/job-hunting/job-hunting-and-ai-generated-resumes/</loc>
+    <loc>https://michael-aguilar.com/job-hunting/ai-generated-resumes/</loc>
     <lastmod>2025-07-31T13:34:00+00:00</lastmod>
   </url><url>
-    <loc>https://michael-aguilar.com/job-hunting/job-hunting-and-the-automatic-tracking-system/</loc>
+    <loc>https://michael-aguilar.com/job-hunting/the-automatic-tracking-system/</loc>
     <lastmod>2025-07-31T13:34:00+00:00</lastmod>
   </url><url>
     <loc>https://michael-aguilar.com/categories/</loc>
