@@ -73,6 +73,29 @@
 			<p>An applicant will submit their resume, and it will be parsed - with varying results - into an Automatic Tracking System. Job descriptions, dates, and keywords will be added to various fields in a database.</p>
 <p>Recruiters seldom read every resume that comes in. Some still do, but given how many applications they receive it&rsquo;s become even less common.</p>
 <p><strong>The problem with the ATS:</strong> When a recruiter queries the ATS, they look for keywords, and get back a list of applications with a score. If an applicant&rsquo;s keywords don&rsquo;t line up, then they get a lower score. They won&rsquo;t be rejected. They won&rsquo;t even be considered.</p>
+<h2 id="parsing-is-a-mess">Parsing is a mess</h2>
+<p>When you hit &ldquo;submit&rdquo; on a job application, your resume gets dumped into the ATS meat grinder. The system tries to make sense of it, but here&rsquo;s the thing - Word documents are basically digital origami. All those fancy formatting choices you made? The two-column layout, the custom headers, the embedded icons? They turn into screaming chaos for the parser.</p>
+<p>It&rsquo;s not the ATS&rsquo;s fault, really. Microsoft Word never intended its files to be machine-readable resumes. So the parser does its best, but ends up mangling job titles, scrambling dates, and butchering skills sections. You&rsquo;ll see it all the time: a perfectly qualified candidate appears in the database as &ldquo;Project Mngr&rdquo; with start dates that read &ldquo;Q3202&rdquo; instead of &ldquo;Q3 2022&rdquo;.</p>
+<p>This creates nightmare fuel for recruiters. Now they&rsquo;ve got to manually fix your resume before it&rsquo;s usable. But who has time for that? They&rsquo;re drowning in applications. So what tends to happen is your mangled resume gets a quick skim - maybe thirty seconds tops - before getting tossed to the bottom of the pile.</p>
+<h2 id="the-keyword-trap">The keyword trap</h2>
+<p>Here&rsquo;s where it gets brutal. Recruiters aren&rsquo;t doing full-text searches. They&rsquo;re typing specific terms from the job description into their dashboard: &ldquo;Python&rdquo;, &ldquo;Agile&rdquo;, &ldquo;AWS&rdquo;. The ATS spits back resumes sorted by how many times those exact terms appear.</p>
+<p>Remember that fancy design you used to stand out? Turns out it backfired. The parser missed your &ldquo;cloud infrastructure experience&rdquo; because it was in a sidebar icon. The recruiter searching for &ldquo;cloud&rdquo; never sees your resume. You&rsquo;re not rejected - you&rsquo;re invisible.</p>
+<p>It&rsquo;s like shouting into a canyon where only certain words echo back. Say &ldquo;machine learning&rdquo; but not &ldquo;ML&rdquo;? Sorry, your 5 years building TensorFlow pipelines won&rsquo;t show up if the recruiter typed &ldquo;ML engineer&rdquo;. The system doesn&rsquo;t care that these mean the same thing. If your resume doesn&rsquo;t mirror their keyword list exactly, you&rsquo;re out of the running before a human ever sees it.</p>
+<h2 id="why-advanced-features-dont-save-you">Why &ldquo;advanced&rdquo; features don&rsquo;t save you</h2>
+<p>Some ATS vendors will tell you their system uses &ldquo;smart matching&rdquo; or &ldquo;semantic search&rdquo;. They&rsquo;ll promise it understands that &ldquo;React&rdquo; and &ldquo;React.js&rdquo; are the same thing. Or that &ldquo;Java developer&rdquo; covers &ldquo;J2EE&rdquo; roles.</p>
+<p>Most of the time? Smoke and mirrors.</p>
+<p>Semantic search tries to match concepts instead of exact words, but it&rsquo;s still terrible at it. Type &ldquo;project manager&rdquo; and it might pull up someone who managed one small internal project five years ago. The AI matching sometimes does slightly better, but it&rsquo;s trained on garbage data - all those poorly parsed resumes floating around.</p>
+<h2 id="the-cold-reality">The cold reality</h2>
+<p>Here&rsquo;s what nobody admits: When a recruiter says they&rsquo;re &ldquo;not seeing qualified candidates&rdquo;, it&rsquo;s often because their keyword search is too narrow. Or their ATS is butchering good resumes. Or both.</p>
+<p>The candidates are there. They&rsquo;re just buried under parsing errors and keyword mismatches. And because recruiters are measured on how quickly they fill positions, they rarely go digging through the lower-ranked piles. Why spend 20 minutes fixing a resume when the next application might be a perfect fit?</p>
+<p>This isn&rsquo;t about recruiters being lazy. It&rsquo;s about a broken system where technical limitations dictate who gets hired. Your resume could be brilliant. Your experience could be perfect. But if it doesn&rsquo;t survive the ATS grinder and match the magic keyword formula? You might as well not have applied at all.</p>
+<p>The fix isn&rsquo;t complicated - stop relying on these fragile parsing systems - but that&rsquo;s a conversation nobody wants to have. Meanwhile, good candidates keep getting filtered out for reasons that have nothing to do with their actual abilities.</p>
+<h2 id="tips">Tips</h2>
+<ul>
+<li>Keep your resume simple.</li>
+<li>Don&rsquo;t use tables, columns, or bullet points (use dashes).</li>
+<li>Reveal the glyphs so you can spot inconsistencies in your formatting.</li>
+</ul>
 		</div>
 	</article>
 </main>
