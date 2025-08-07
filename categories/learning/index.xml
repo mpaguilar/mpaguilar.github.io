@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on Michael Aguilar</title>
+    <link>https://michael-aguilar.com/categories/learning/</link>
+    <description>Recent content in Learning on Michael Aguilar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Jul 2025 11:54:00 +0000</lastBuildDate>
+    <atom:link href="https://michael-aguilar.com/categories/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generative AI Tutorial</title>
+      <link>https://michael-aguilar.com/ai/generative-ai-tutorial/</link>
+      <pubDate>Sat, 05 Jul 2025 11:54:00 +0000</pubDate>
+      <guid>https://michael-aguilar.com/ai/generative-ai-tutorial/</guid>
+      <description>&lt;p&gt;Are you curious about how AI can enhance your work, but feel overwhelmed by the technical jargon? If so, you’re in the right place!&lt;/p&gt;&#xA;&lt;p&gt;When you last interacted with AI, did it seem like a mysterious magic box, or did you feel empowered to mold it to your needs?&lt;/p&gt;&#xA;&lt;p&gt;In this primer, we&amp;rsquo;re going to remove the magic, and help you understand it as a tool you can manipulate.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

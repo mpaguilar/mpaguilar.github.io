@@ -6,34 +6,13 @@
     <description>Recent content in Categories on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Aug 2025 08:34:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jul 2025 11:54:00 +0000</lastBuildDate>
     <atom:link href="https://michael-aguilar.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI</title>
-      <link>https://michael-aguilar.com/categories/ai/</link>
-      <pubDate>Tue, 05 Aug 2025 08:34:00 +0000</pubDate>
-      <guid>https://michael-aguilar.com/categories/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Working</title>
-      <link>https://michael-aguilar.com/categories/working/</link>
-      <pubDate>Tue, 05 Aug 2025 08:34:00 +0000</pubDate>
-      <guid>https://michael-aguilar.com/categories/working/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI Code</title>
-      <link>https://michael-aguilar.com/categories/ai-code/</link>
-      <pubDate>Sat, 02 Aug 2025 09:44:00 +0000</pubDate>
-      <guid>https://michael-aguilar.com/categories/ai-code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tutorials</title>
-      <link>https://michael-aguilar.com/categories/tutorials/</link>
-      <pubDate>Fri, 04 Jul 2025 11:54:00 +0000</pubDate>
-      <guid>https://michael-aguilar.com/categories/tutorials/</guid>
+      <title>Learning</title>
+      <link>https://michael-aguilar.com/categories/learning/</link>
+      <pubDate>Sat, 05 Jul 2025 11:54:00 +0000</pubDate>
+      <guid>https://michael-aguilar.com/categories/learning/</guid>
       <description></description>
     </item>
   </channel>

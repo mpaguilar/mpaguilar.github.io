@@ -30,11 +30,11 @@
       <description>&lt;ul&gt;&#xA;&lt;li&gt;AI-assisted development accelerates both coding speed and error propagation, with risks like cascading mistakes and design flaws magnified by AI&amp;rsquo;s context limitations, akin to Knight Capital&amp;rsquo;s $500M human-error-driven collapse.&lt;/li&gt;&#xA;&lt;li&gt;Real-world failures (e.g., Knight Capital) stem from process gaps, not technology; AI intensifies this by compressing multi-year human error patterns—like developers Alice, Bob, and Charlie inheriting undocumented code under time pressure—into hours or days.&lt;/li&gt;&#xA;&lt;li&gt;AI lacks persistent context, acting as a &amp;ldquo;new developer&amp;rdquo; per request, which forgets safeguards, amplifies poor documentation, and misses architectural pitfalls unless explicitly guided by experienced oversight.&lt;/li&gt;&#xA;&lt;li&gt;Defensive coding practices (e.g., explicit error checks, copy-before-move for files) are critical since AI won&amp;rsquo;t self-advocate for safeguards—users must enforce quality control as architects and reviewers.&lt;/li&gt;&#xA;&lt;li&gt;While AI democratizes development, inexperienced users often overlook foundational pitfalls, making seasoned judgment essential to prevent small oversights from escalating at machine speed.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Job Hunting and Hiring Managers</title>
+      <title>Hiring Managers</title>
       <link>https://michael-aguilar.com/job-hunting/job-hunting-and-the-hiring-manager/</link>
       <pubDate>Thu, 31 Jul 2025 14:34:00 +0000</pubDate>
       <guid>https://michael-aguilar.com/job-hunting/job-hunting-and-the-hiring-manager/</guid>
-      <description>&lt;p&gt;It all starts with the hiring manager. They have an opening, and they need to find some candidates.&lt;/p&gt;&#xA;&lt;p&gt;The hiring manager will create a job description, and send it to a recruiter. In a larger organization, HR will play a big part in this.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The problem with hiring managers:&lt;/strong&gt; Most managers don&amp;rsquo;t know anything about hiring people. For many, it&amp;rsquo;s something they do once or twice a year, if that often.&lt;/p&gt;</description>
+      <description>&lt;p&gt;It all starts with the hiring manager. They have an opening, and they need to find some candidates.&lt;/p&gt;&#xA;&lt;p&gt;The hiring manager will create a job description, and send it to a recruiter. In a larger organization, HR will play a big part in this.&lt;/p&gt;&#xA;&lt;p&gt;They&amp;rsquo;re also very involved at the end. They have the final say as to whether or not a candidate is selected. Don&amp;rsquo;t blame the recruiter - they didn&amp;rsquo;t have anything to do with it.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The problem with hiring managers:&lt;/strong&gt; Most managers don&amp;rsquo;t know anything about hiring people. For many, it&amp;rsquo;s something they do once or twice a year, if that often.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Recruiters</title>
@@ -51,7 +51,7 @@
       <description>&lt;p&gt;If you apply on LinkedIn, you may see that a given job has &amp;ldquo;100+&amp;rdquo; applicants in less than a day. That&amp;rsquo;s not a mistake, or a typo.&lt;/p&gt;&#xA;&lt;p&gt;Just because you see so many applicants doesn&amp;rsquo;t mean you shouldn&amp;rsquo;t apply if you&amp;rsquo;re qualified. You should.&lt;/p&gt;&#xA;&lt;p&gt;Adding to the difficulty is that many of those 100+ applicants are faking it. It isn&amp;rsquo;t difficult to create a resume based on the job description. It&amp;rsquo;s easy to apply, so plenty of unqualified people just go for it. The potential  of getting a job is a huge reward for very little effort.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The problem with AI Generated resumes:&lt;/strong&gt; With the popularization of AI, creating and submitting a tailored resume is easier than ever. It will be perfectly formatted, have relevant bullet points, and follow the STAR method.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Job Hunting and the Automatic Tracking System</title>
+      <title>The Automatic Tracking System</title>
       <link>https://michael-aguilar.com/job-hunting/job-hunting-and-the-automatic-tracking-system/</link>
       <pubDate>Thu, 31 Jul 2025 13:34:00 +0000</pubDate>
       <guid>https://michael-aguilar.com/job-hunting/job-hunting-and-the-automatic-tracking-system/</guid>
@@ -60,7 +60,7 @@
     <item>
       <title>Generative AI Tutorial</title>
       <link>https://michael-aguilar.com/ai/generative-ai-tutorial/</link>
-      <pubDate>Fri, 04 Jul 2025 11:54:00 +0000</pubDate>
+      <pubDate>Sat, 05 Jul 2025 11:54:00 +0000</pubDate>
       <guid>https://michael-aguilar.com/ai/generative-ai-tutorial/</guid>
       <description>&lt;p&gt;Are you curious about how AI can enhance your work, but feel overwhelmed by the technical jargon? If so, you’re in the right place!&lt;/p&gt;&#xA;&lt;p&gt;When you last interacted with AI, did it seem like a mysterious magic box, or did you feel empowered to mold it to your needs?&lt;/p&gt;&#xA;&lt;p&gt;In this primer, we&amp;rsquo;re going to remove the magic, and help you understand it as a tool you can manipulate.&lt;/p&gt;</description>
     </item>
