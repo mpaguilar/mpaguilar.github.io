@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Michael Aguilar</title>
-    <link>https://michael-aguilar.com/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jul 2025 11:54:00 +0000</lastBuildDate>
-    <atom:link href="https://michael-aguilar.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Aug 2025 13:24:00 +0000</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning</title>
-      <link>https://michael-aguilar.com/categories/learning/</link>
-      <pubDate>Sat, 05 Jul 2025 11:54:00 +0000</pubDate>
-      <guid>https://michael-aguilar.com/categories/learning/</guid>
+      <link>/categories/learning/</link>
+      <pubDate>Thu, 07 Aug 2025 13:24:00 +0000</pubDate>
+      <guid>/categories/learning/</guid>
       <description></description>
     </item>
   </channel>

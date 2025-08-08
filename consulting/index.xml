@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Job Experience on Michael Aguilar</title>
-    <link>https://michael-aguilar.com/consulting/</link>
+    <link>/consulting/</link>
     <description>Recent content in Job Experience on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://michael-aguilar.com/consulting/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/consulting/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
