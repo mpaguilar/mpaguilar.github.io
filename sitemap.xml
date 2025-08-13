@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/job-hunting/about-the-job-hunt/</loc>
+    <lastmod>2025-07-31T14:34:00+00:00</lastmod>
+  </url><url>
     <loc>/ai-learning/generative-ai-tutorial/</loc>
     <lastmod>2025-07-05T11:54:00+00:00</lastmod>
   </url><url>
@@ -11,13 +14,19 @@
     <loc>/ai-learning/system-and-user-prompts/</loc>
     <lastmod>2025-08-07T13:24:00+00:00</lastmod>
   </url><url>
+    <loc>/job-hunting/being-rejected/</loc>
+    <lastmod>2025-08-12T09:44:00+00:00</lastmod>
+  </url><url>
+    <loc>/job-hunting/</loc>
+    <lastmod>2025-08-12T09:44:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2025-08-12T09:44:00+00:00</lastmod>
+  </url><url>
     <loc>/ai/</loc>
     <lastmod>2025-08-10T09:44:00+00:00</lastmod>
   </url><url>
     <loc>/ai/ai-and-developers/</loc>
-    <lastmod>2025-08-10T09:44:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2025-08-10T09:44:00+00:00</lastmod>
   </url><url>
     <loc>/ai-learning/</loc>
@@ -41,13 +50,7 @@
     <loc>/ai/ai-development-good-and-bad/</loc>
     <lastmod>2025-08-02T09:44:00+00:00</lastmod>
   </url><url>
-    <loc>/job-hunting/about-the-job-hunt/</loc>
-    <lastmod>2025-07-31T14:34:00+00:00</lastmod>
-  </url><url>
     <loc>/job-hunting/the-hiring-manager/</loc>
-    <lastmod>2025-07-31T14:34:00+00:00</lastmod>
-  </url><url>
-    <loc>/job-hunting/</loc>
     <lastmod>2025-07-31T14:34:00+00:00</lastmod>
   </url><url>
     <loc>/job-hunting/recruiters/</loc>
