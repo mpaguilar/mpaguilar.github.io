@@ -6,7 +6,7 @@
     <description>Recent content on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Aug 2025 14:34:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Aug 2025 13:34:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About the Job Hunt</title>
@@ -35,6 +35,13 @@
       <pubDate>Thu, 07 Aug 2025 13:24:00 +0000</pubDate>
       <guid>/ai-learning/system-and-user-prompts/</guid>
       <description>&lt;p&gt;Ever wonder why AI sometimes acts like your chatty friend and other times like a stiff librarian? The difference often comes down to two invisible ingredients: the system prompt and your user prompt. Let’s peel back the curtain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Getting the job</title>
+      <link>/job-hunting/being-hired/</link>
+      <pubDate>Sun, 17 Aug 2025 13:34:00 +0000</pubDate>
+      <guid>/job-hunting/being-hired/</guid>
+      <description>&lt;p&gt;Congratulations! You were offered the job! Now you can finally scouring job boards, filling out endless applications, hovering over your email, interviewing, and basically just stop worrying. What a relief!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The problem with getting an offer:&lt;/strong&gt; It&amp;rsquo;s only an &lt;em&gt;offer&lt;/em&gt;. There may still be reasons you don&amp;rsquo;t have a new job.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hiring Managers</title>
