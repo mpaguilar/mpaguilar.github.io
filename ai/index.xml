@@ -6,8 +6,15 @@
     <description>Recent content in About AI on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Aug 2025 13:09:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 07:09:00 +0000</lastBuildDate>
     <atom:link href="/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced AI Code Automation</title>
+      <link>/ai/more-advanced-automation/</link>
+      <pubDate>Mon, 01 Sep 2025 07:09:00 +0000</pubDate>
+      <guid>/ai/more-advanced-automation/</guid>
+      <description>&lt;p&gt;So, you&amp;rsquo;ve got a great process down for developing your code. You&amp;rsquo;ve got great documentation, 100% test coverage, good git branching and tagging, and all the other detailed steps for generating code.&lt;/p&gt;&#xA;&lt;p&gt;It sure is a lot of typing, though, isn&amp;rsquo;t it? Very repititious. Obviously, you should automate those steps! You&amp;rsquo;re only a little bit away from typing in &amp;ldquo;Write me an app that does X,Y, and Z!&amp;rdquo; and then taking a nap while it does the work!&lt;/p&gt;&#xA;&lt;p&gt;Not so fast&amp;hellip;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>&#34;AI is a bubble!&#34; Yea, So What?</title>
       <link>/ai/ai-a-bubble-so-what/</link>
