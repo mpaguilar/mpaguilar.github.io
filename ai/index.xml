@@ -6,8 +6,15 @@
     <description>Recent content in About AI on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Sep 2025 06:09:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Sep 2025 07:39:00 +0000</lastBuildDate>
     <atom:link href="/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It Sucks Being a Manager</title>
+      <link>/ai/it-sucks-being-a-manager/</link>
+      <pubDate>Fri, 05 Sep 2025 07:39:00 +0000</pubDate>
+      <guid>/ai/it-sucks-being-a-manager/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve written quite a bit about the overall process of AI-assisted development. Not the &amp;ldquo;write code&amp;rdquo; part of it - if anything, that&amp;rsquo;s the easy part. There&amp;rsquo;s a process to writing a project which can be maintained, with bug fixes and new features.&lt;/p&gt;&#xA;&lt;p&gt;What&amp;rsquo;s a little tough right now is constantly being in the position of being a manager, stakeholder, business, and end-user. I&amp;rsquo;ve understood it in an abstract, and tend to be careful about considering them.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s so very &lt;em&gt;visceral&lt;/em&gt; now.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Which AI Model Should I Use For Coding?</title>
       <link>/ai/which-ai-model-should-i-use-for-coding/</link>

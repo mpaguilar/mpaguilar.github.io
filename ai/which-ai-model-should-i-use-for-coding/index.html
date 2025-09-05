@@ -97,15 +97,9 @@
 	<div class="toc__menu">
 		<nav id="TableOfContents">
   <ul>
-    <li><a href="#thinking-outside-the-big-box-store">Thinking outside the big-box store</a></li>
-    <li><a href="#trading-cost-for-capability">Trading cost for capability</a>
-      <ul>
-        <li><a href="#the-cheap-models">The cheap models</a></li>
-        <li><a href="#the-expensive-models">The expensive models</a></li>
-        <li><a href="#the-middle-of-the-road">The middle of the road</a></li>
-      </ul>
-    </li>
-    <li><a href="#its-your-call">It&rsquo;s your call</a></li>
+    <li><a href="#the-cheap-models">The cheap models</a></li>
+    <li><a href="#the-expensive-models">The expensive models</a></li>
+    <li><a href="#the-middle-of-the-road">The middle of the road</a></li>
   </ul>
 </nav>
 	</div>
@@ -113,7 +107,7 @@
 			<p>Most of the big players (Anthropic, Google, et. al) provide all-in-one solutions for writing code. If that&rsquo;s what you&rsquo;re doing, that&rsquo;s fine, but you may be missing out.</p>
 <p>For one thing, they can be pretty expensive (unless your company is paying for it). Anthropic&rsquo;s best - Opus - can get really expensive, really fast. Admittedly, it still costs less than paying for an overseas team, but if it&rsquo;s coming out of your wallet you&rsquo;re bound to notice.</p>
 <p>Considering how quickly everything is moving, I&rsquo;m sure this post will age like milk.</p>
-<h2 id="thinking-outside-the-big-box-store">Thinking outside the big-box store</h2>
+<h1 id="thinking-outside-the-big-box-store">Thinking outside the big-box store</h1>
 <p>If you&rsquo;re using an editor or tool that can connect to any OpenAI-compatible endpoint, you&rsquo;ve got options. This is a big deal because it means you aren&rsquo;t locked into one provider&rsquo;s ecosystem and pricing. You can shop around.</p>
 <p>A few third-party options have sprung up to fill this need:</p>
 <ul>
@@ -122,9 +116,9 @@
 <li><strong><a href="https://portkey.ai">Portkey</a></strong> is geared more towards businesses or power users. It offers advanced features like setting budgets, fallback models (if one fails, it tries another), and other guardrails to control costs and improve reliability.</li>
 </ul>
 <p>For those who want to run things themselves, there&rsquo;s <strong><a href="https://docs.litellm.ai/">LiteLLM</a></strong>. It&rsquo;s an open-source project that gives you a unified API to talk to over 100 different LLMs. You can host it yourself, giving you full control over how you route requests, whether it&rsquo;s for a personal project or a full-blown business application. Think of it as a universal remote for LLMs.</p>
-<h2 id="trading-cost-for-capability">Trading cost for capability</h2>
+<h1 id="trading-cost-for-capability">Trading cost for capability</h1>
 <p>Every model has what you could call a &ldquo;complexity ceiling.&rdquo; It&rsquo;s the point where a task is just too hard for it. The context window is too small to hold all the relevant information, or the reasoning required is a step too far. Your choice of model determines how high that ceiling is, and what you&rsquo;ll pay to get there.</p>
-<h3 id="the-cheap-models">The cheap models</h3>
+<h2 id="the-cheap-models">The cheap models</h2>
 <p>It&rsquo;s tempting to just use the cheapest model available. Tokens are cheap, so why not? The problem is that while the per-token cost is low, the cost in your time and effort can be high.</p>
 <p>Using a weak model is like micromanaging a new intern. You have to break everything down into tiny, explicit steps.</p>
 <p>You might end up with a workflow like this:</p>
@@ -135,13 +129,13 @@
 <li>Finally, after all that, you have to tell it: &ldquo;Now, write the documentation for the function.&rdquo;</li>
 </ol>
 <p>Each step costs time and money. What looked cheap on paper becomes a slow, frustrating process.</p>
-<h3 id="the-expensive-models">The expensive models</h3>
+<h2 id="the-expensive-models">The expensive models</h2>
 <p>On the other end, you have the top-tier models like GPT-4 Turbo and Anthropic&rsquo;s Opus. You can throw a complex problem at them, and they often get it right on the first or second try. They write the code, the tests, and the documentation all in one go.</p>
 <p>The work gets done much, much faster. The trade-off is obvious: you have to bring your wallet. Opus, in particular, can chew through a budget so quickly you&rsquo;ll wonder what happened. It&rsquo;s very good, but you have to ask yourself if the speed is worth the significant cost. For some projects, it is. For many, it&rsquo;s overkill.</p>
-<h3 id="the-middle-of-the-road">The middle of the road</h3>
+<h2 id="the-middle-of-the-road">The middle of the road</h2>
 <p>This brings us to models like Anthropic&rsquo;s Sonnet or Google&rsquo;s Gemini Pro. They&rsquo;re&hellip; well&hellip; they&rsquo;re middle of the road. They&rsquo;re more capable than the cheap models, so you won&rsquo;t have to do as much hand-holding. They&rsquo;re less expensive than the top-tier ones, so your wallet won&rsquo;t scream in pain.</p>
 <p>It&rsquo;s a compromise. You get decent performance for a reasonable price, but you&rsquo;ll still run into that complexity ceiling sooner than you would with an Opus or GPT-4.</p>
-<h2 id="its-your-call">It&rsquo;s your call</h2>
+<h1 id="its-your-call">It&rsquo;s your call</h1>
 <p>Ultimately, the choice depends on how you work and what you&rsquo;re working on. Are you doing something simple where a cheap model is good enough? Are you on a tight deadline where the speed of an expensive model justifies the cost? Or are you somewhere in between?</p>
 <p>No matter which model you choose, you&rsquo;ll eventually hit a wall. AI is a tool, and a powerful one, but it doesn&rsquo;t remove the need for a developer to be the architect, the project manager, and the quality checker. You still have to manage the process and step in when the AI gets it wrong.</p>
 		</div>
@@ -169,6 +163,9 @@
 	<h4 class="widget__title">Section Articles</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/ai/it-sucks-being-a-manager/">It Sucks Being a Manager</a>
+			</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/ai/which-ai-model-should-i-use-for-coding/">Which AI Model Should I Use For Coding?</a>
 			</li>
