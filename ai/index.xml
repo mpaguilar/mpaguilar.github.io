@@ -6,8 +6,15 @@
     <description>Recent content in About AI on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 07:09:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Sep 2025 06:09:00 +0000</lastBuildDate>
     <atom:link href="/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Which AI Model Should I Use For Coding?</title>
+      <link>/ai/which-ai-model-should-i-use-for-coding/</link>
+      <pubDate>Fri, 05 Sep 2025 06:09:00 +0000</pubDate>
+      <guid>/ai/which-ai-model-should-i-use-for-coding/</guid>
+      <description>&lt;p&gt;Most of the big players (Anthropic, Google, et. al) provide all-in-one solutions for writing code. If that&amp;rsquo;s what you&amp;rsquo;re doing, that&amp;rsquo;s fine, but you may be missing out.&lt;/p&gt;&#xA;&lt;p&gt;For one thing, they can be pretty expensive (unless your company is paying for it). Anthropic&amp;rsquo;s best - Opus - can get really expensive, really fast. Admittedly, it still costs less than paying for an overseas team, but if it&amp;rsquo;s coming out of your wallet you&amp;rsquo;re bound to notice.&lt;/p&gt;&#xA;&lt;p&gt;Considering how quickly everything is moving, I&amp;rsquo;m sure this post will age like milk.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Advanced AI Code Automation</title>
       <link>/ai/more-advanced-automation/</link>

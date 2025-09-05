@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Advanced AI Code Automation - Michael Aguilar</title>
+	<title>Which AI Model Should I Use For Coding? - Michael Aguilar</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,12 +83,12 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Advanced AI Code Automation</h1>
+			<h1 class="post__title">Which AI Model Should I Use For Coding?</h1>
 			<div class="post__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 16 16"><path d="M8 1c2 0 3.5 2 3.5 4.5S10 9 10 9c3 1 4 2 4 6H2c0-4 1-5 4-6 0 0-1.5-1-1.5-3.5S6 1 8 1"/></svg><span class="meta__text">Michael Aguilar</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2025-09-01T07:09:00Z">September 01, 2025</time></div></div>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2025-09-05T06:09:00Z">September 05, 2025</time></div></div>
 		</header>
 		
 
@@ -97,49 +97,53 @@
 	<div class="toc__menu">
 		<nav id="TableOfContents">
   <ul>
-    <li><a href="#files-will-be-created-all-over-the-place">Files will be created all over the place</a></li>
-    <li><a href="#tests-will-fail-over-and-over-again">Tests will fail, over and over again</a></li>
-    <li><a href="#uh-does-the-app-even-work">Uh, Does the app even work?</a></li>
-    <li><a href="#not-only-is-time-wasted-but-so-is-money">Not only is time wasted, but so is money</a></li>
+    <li><a href="#thinking-outside-the-big-box-store">Thinking outside the big-box store</a></li>
+    <li><a href="#trading-cost-for-capability">Trading cost for capability</a>
+      <ul>
+        <li><a href="#the-cheap-models">The cheap models</a></li>
+        <li><a href="#the-expensive-models">The expensive models</a></li>
+        <li><a href="#the-middle-of-the-road">The middle of the road</a></li>
+      </ul>
+    </li>
+    <li><a href="#its-your-call">It&rsquo;s your call</a></li>
   </ul>
 </nav>
 	</div>
 </div><div class="content post__content clearfix">
-			<p>So, you&rsquo;ve got a great process down for developing your code. You&rsquo;ve got great documentation, 100% test coverage, good git branching and tagging, and all the other detailed steps for generating code.</p>
-<p>It sure is a lot of typing, though, isn&rsquo;t it? Very repititious. Obviously, you should automate those steps! You&rsquo;re only a little bit away from typing in &ldquo;Write me an app that does X,Y, and Z!&rdquo; and then taking a nap while it does the work!</p>
-<p>Not so fast&hellip;</p>
-<p>Automating an AI-driven process sounds great on paper. You feed commands to the AI, it spits out code, another script runs the tests, and round and round it goes. It&rsquo;s the dream of frictionless development.</p>
-<p>The problem is, when automation goes wrong, it can go wrong in a big, expensive, and baffling way.</p>
-<h1 id="when-it-goes-wrong-it-goes-really-wrong">When it goes wrong, it goes really wrong</h1>
-<p>An automated loop that includes an AI is like giving a junior developer who has never seen your project the keys to the car, and then telling them to just keep driving. What could possibly go wrong?</p>
-<h2 id="files-will-be-created-all-over-the-place">Files will be created all over the place</h2>
-<p>One of the first things you&rsquo;ll notice is a complete mess in your project structure. The AI doesn&rsquo;t have a &ldquo;map&rdquo; of your project in its head. It only works with the context you give it. If you tell it to &ldquo;create a new service for processing widgets,&rdquo; it might create <code>src/services/widget_processing_service.py</code> one time, and <code>src/widget_processor.py</code> the next.</p>
-<p>It will then build upon the mess it just made. Your automation script, unaware of the chaos, will feed this new, misplaced file back into the context for the next step. The AI sees the new file and assumes that&rsquo;s where things are supposed to go now.</p>
-<p>This is where the term &ldquo;AI slop&rdquo; comes from. It&rsquo;s just crap piled on top of crap, all at machine speed. You can end up with a tangled, un-maintainable directory structure in minutes.</p>
-<h2 id="tests-will-fail-over-and-over-again">Tests will fail, over and over again</h2>
-<p>With all these new, misplaced files and hastily written code, your test suite will start to light up like a Christmas tree. Your automation script, trying to be helpful, might try to fix them.</p>
-<p>&ldquo;Fix the failing test,&rdquo; it commands the AI. The AI, again with limited context, might &ldquo;fix&rdquo; it by changing an assertion from <code>True</code> to <code>False</code>, or by commenting out the entire test. Congratulations, the test passes now.</p>
-<p>Debugging real failures becomes a nightmare. An automated loop can get stuck on the same subtle error, trying slightly different - but equally wrong - solutions over and over. Worse, you can get into a &ldquo;whack-a-mole&rdquo; situation. A fix for one test breaks another. The automated fix for <em>that</em> test then breaks the first one it fixed.</p>
-<h2 id="uh-does-the-app-even-work">Uh, Does the app even work?</h2>
-<p>Let&rsquo;s say you manage to get past the file mess and the looping test failures. You have an app that the automation says is &ldquo;done.&rdquo; Does it actually do what you wanted?</p>
-<p>Maybe. But what about the details you didn&rsquo;t think to specify?</p>
-<p>Your design may have left out critical parts of a real-world application. Things like:</p>
+			<p>Most of the big players (Anthropic, Google, et. al) provide all-in-one solutions for writing code. If that&rsquo;s what you&rsquo;re doing, that&rsquo;s fine, but you may be missing out.</p>
+<p>For one thing, they can be pretty expensive (unless your company is paying for it). Anthropic&rsquo;s best - Opus - can get really expensive, really fast. Admittedly, it still costs less than paying for an overseas team, but if it&rsquo;s coming out of your wallet you&rsquo;re bound to notice.</p>
+<p>Considering how quickly everything is moving, I&rsquo;m sure this post will age like milk.</p>
+<h2 id="thinking-outside-the-big-box-store">Thinking outside the big-box store</h2>
+<p>If you&rsquo;re using an editor or tool that can connect to any OpenAI-compatible endpoint, you&rsquo;ve got options. This is a big deal because it means you aren&rsquo;t locked into one provider&rsquo;s ecosystem and pricing. You can shop around.</p>
+<p>A few third-party options have sprung up to fill this need:</p>
 <ul>
-<li>What happens the very first time it runs, when there&rsquo;s no data or config file?</li>
-<li>How does it handle a sudden crash? Does it clean up after itself?</li>
-<li>Is there any logging or observation instrumentation to see what it&rsquo;s doing?</li>
+<li><strong><a href="https://openrouter.ai/">OpenRouter</a></strong> is what I use. It&rsquo;s a pay-as-you-go service that acts as a gateway to dozens of different models, from the cheapest to the most expensive. You fund an account and your balance gets debited as you use it. Simple.</li>
+<li><strong><a href="https://www.together.ai/">Together AI</a></strong> is another popular choice. They focus on providing fast inference for a lot of open-source models, often at very competitive prices.</li>
+<li><strong><a href="https://portkey.ai">Portkey</a></strong> is geared more towards businesses or power users. It offers advanced features like setting budgets, fallback models (if one fails, it tries another), and other guardrails to control costs and improve reliability.</li>
 </ul>
-<p>The automation built exactly what you asked for, but what you asked for wasn&rsquo;t complete. It may do what you <em>designed</em>, but the design may not be what you were <em>thinking</em>. This is why user validation - with you as the first user - is so important. You have to run the thing and see if it&rsquo;s even close to what you intended.</p>
-<h2 id="not-only-is-time-wasted-but-so-is-money">Not only is time wasted, but so is money</h2>
-<p>This whole automated misadventure isn&rsquo;t just wasting your time; it&rsquo;s costing you money.</p>
-<p>AI APIs aren&rsquo;t free. Every time your script gets caught in a loop trying to fix a test, it&rsquo;s making another API call. It&rsquo;s entirely possible to burn through your budget for the month in a single afternoon while your automated script dutifully tries to solve a problem it doesn&rsquo;t have the context to understand.</p>
-<h1 id="mitigation">Mitigation</h1>
-<p>This doesn&rsquo;t mean you shouldn&rsquo;t automate. It just means you can&rsquo;t go from zero to a fully autonomous, napping-while-it-works system in one step. You need to be smart about it.</p>
-<ul>
-<li><strong>Automate incrementally.</strong> Don&rsquo;t try to automate the entire development lifecycle at once. Start with one small, repetitive task. Maybe it&rsquo;s just generating a boilerplate file based on a spec. Get that working reliably, then move to the next small piece.</li>
-<li><strong>Build breaks into the workflow.</strong> Your automation should not be a continuous loop. It should run a step, then <em>stop</em>. It should present the results to you for verification. Did it create the files in the right place? Does the code look sane? Once you approve, you can trigger the next step.</li>
-<li><strong>Constantly supervise.</strong> You have to shift your role from typist to supervisor. You are the quality gate. Your job is to review the AI&rsquo;s output at every step, catching the small mistakes before they get baked into the foundation and amplified by the next automated step.</li>
-</ul>
+<p>For those who want to run things themselves, there&rsquo;s <strong><a href="https://docs.litellm.ai/">LiteLLM</a></strong>. It&rsquo;s an open-source project that gives you a unified API to talk to over 100 different LLMs. You can host it yourself, giving you full control over how you route requests, whether it&rsquo;s for a personal project or a full-blown business application. Think of it as a universal remote for LLMs.</p>
+<h2 id="trading-cost-for-capability">Trading cost for capability</h2>
+<p>Every model has what you could call a &ldquo;complexity ceiling.&rdquo; It&rsquo;s the point where a task is just too hard for it. The context window is too small to hold all the relevant information, or the reasoning required is a step too far. Your choice of model determines how high that ceiling is, and what you&rsquo;ll pay to get there.</p>
+<h3 id="the-cheap-models">The cheap models</h3>
+<p>It&rsquo;s tempting to just use the cheapest model available. Tokens are cheap, so why not? The problem is that while the per-token cost is low, the cost in your time and effort can be high.</p>
+<p>Using a weak model is like micromanaging a new intern. You have to break everything down into tiny, explicit steps.</p>
+<p>You might end up with a workflow like this:</p>
+<ol>
+<li>First, you tell it to write the basic code for a function. You can&rsquo;t ask for tests at the same time because it&rsquo;s not &ldquo;smart&rdquo; enough to handle both requests at once. It&rsquo;ll just get confused or do a poor job.</li>
+<li>Once you get the code, you start a new conversation. &ldquo;Okay, now write a unit test for the function you just wrote.&rdquo;</li>
+<li>The test it writes will probably only cover the happy path. So, you have to ask again: &ldquo;Now write tests for the edge cases.&rdquo; This might take a few more tries.</li>
+<li>Finally, after all that, you have to tell it: &ldquo;Now, write the documentation for the function.&rdquo;</li>
+</ol>
+<p>Each step costs time and money. What looked cheap on paper becomes a slow, frustrating process.</p>
+<h3 id="the-expensive-models">The expensive models</h3>
+<p>On the other end, you have the top-tier models like GPT-4 Turbo and Anthropic&rsquo;s Opus. You can throw a complex problem at them, and they often get it right on the first or second try. They write the code, the tests, and the documentation all in one go.</p>
+<p>The work gets done much, much faster. The trade-off is obvious: you have to bring your wallet. Opus, in particular, can chew through a budget so quickly you&rsquo;ll wonder what happened. It&rsquo;s very good, but you have to ask yourself if the speed is worth the significant cost. For some projects, it is. For many, it&rsquo;s overkill.</p>
+<h3 id="the-middle-of-the-road">The middle of the road</h3>
+<p>This brings us to models like Anthropic&rsquo;s Sonnet or Google&rsquo;s Gemini Pro. They&rsquo;re&hellip; well&hellip; they&rsquo;re middle of the road. They&rsquo;re more capable than the cheap models, so you won&rsquo;t have to do as much hand-holding. They&rsquo;re less expensive than the top-tier ones, so your wallet won&rsquo;t scream in pain.</p>
+<p>It&rsquo;s a compromise. You get decent performance for a reasonable price, but you&rsquo;ll still run into that complexity ceiling sooner than you would with an Opus or GPT-4.</p>
+<h2 id="its-your-call">It&rsquo;s your call</h2>
+<p>Ultimately, the choice depends on how you work and what you&rsquo;re working on. Are you doing something simple where a cheap model is good enough? Are you on a tight deadline where the speed of an expensive model justifies the cost? Or are you somewhere in between?</p>
+<p>No matter which model you choose, you&rsquo;ll eventually hit a wall. AI is a tool, and a powerful one, but it doesn&rsquo;t remove the need for a developer to be the architect, the project manager, and the quality checker. You still have to manage the process and step in when the AI gets it wrong.</p>
 		</div>
 	</article>
 </main>
