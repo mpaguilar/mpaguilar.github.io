@@ -6,7 +6,7 @@
     <description>Recent content on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Sep 2025 07:39:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Sep 2025 08:29:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About the Job Hunt</title>
@@ -84,6 +84,13 @@
       <pubDate>Thu, 31 Jul 2025 13:34:00 +0000</pubDate>
       <guid>/job-hunting/ai-generated-resumes/</guid>
       <description>&lt;p&gt;If you apply on LinkedIn, you may see that a given job has “100+” applicants in less than a day. That’s not a mistake, or a typo.&lt;/p&gt;&#xA;&lt;p&gt;Just because you see so many applicants doesn’t mean you shouldn’t apply if you’re qualified. You should.&lt;/p&gt;&#xA;&lt;p&gt;Adding to the difficulty is that many of those 100+ applicants are faking it. It isn’t difficult to create a resume based on the job description. It’s easy to apply, so plenty of unqualified people just go for it. The potential of getting a job is a huge reward for very little effort.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The problem with AI Generated resumes:&lt;/strong&gt; With the popularization of AI, creating and submitting a tailored resume is easier than ever. It will be perfectly formatted, have relevant bullet points, and follow the STAR method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Resume Editor - Alpha</title>
+      <link>/consulting/ai-resume-editor-alpha-announcement/</link>
+      <pubDate>Sat, 27 Sep 2025 08:29:00 +0000</pubDate>
+      <guid>/consulting/ai-resume-editor-alpha-announcement/</guid>
+      <description>&lt;p&gt;Today we are releasing an early version of the Resume Editor, a web-based tool for creating and managing resumes.&lt;/p&gt;&#xA;&lt;p&gt;This is an alpha release. This means we are still actively adding features and fixing bugs. The project is open source, and we are looking for feedback.&lt;/p&gt;</description>
     </item>
     <item>
       <title>It Sucks Being a Manager</title>
