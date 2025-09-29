@@ -6,8 +6,15 @@
     <description>Recent content in About AI on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Sep 2025 07:39:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Sep 2025 07:09:00 +0000</lastBuildDate>
     <atom:link href="/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI and the Hiring Landscape</title>
+      <link>/ai/ai-and-the-hiring-landscape/</link>
+      <pubDate>Sun, 28 Sep 2025 07:09:00 +0000</pubDate>
+      <guid>/ai/ai-and-the-hiring-landscape/</guid>
+      <description>&lt;p&gt;There’s a lot of chatter about AI reshaping hiring, but it’s not as simple as “replace recruiters” or “solve everything.” The impact depends on how it’s trained, how it’s prompted, and how it’s used. It could streamline things or make them worse, depending on the setup.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>It Sucks Being a Manager</title>
       <link>/ai/it-sucks-being-a-manager/</link>
