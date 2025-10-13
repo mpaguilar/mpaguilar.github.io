@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Advanced AI Code Automation - Michael Aguilar</title>
+	<title>AI Development: Research, Plan, Implement - Michael Aguilar</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,12 +83,12 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Advanced AI Code Automation</h1>
+			<h1 class="post__title">AI Development: Research, Plan, Implement</h1>
 			<div class="post__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 16 16"><path d="M8 1c2 0 3.5 2 3.5 4.5S10 9 10 9c3 1 4 2 4 6H2c0-4 1-5 4-6 0 0-1.5-1-1.5-3.5S6 1 8 1"/></svg><span class="meta__text">Michael Aguilar</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2025-09-01T07:09:00Z">September 01, 2025</time></div></div>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2025-10-12T18:44:00Z">October 12, 2025</time></div></div>
 		</header>
 		
 
@@ -97,48 +97,71 @@
 	<div class="toc__menu">
 		<nav id="TableOfContents">
   <ul>
-    <li><a href="#files-will-be-created-all-over-the-place">Files will be created all over the place</a></li>
-    <li><a href="#tests-will-fail-over-and-over-again">Tests will fail, over and over again</a></li>
-    <li><a href="#uh-does-the-app-even-work">Uh, Does the app even work?</a></li>
-    <li><a href="#not-only-is-time-wasted-but-so-is-money">Not only is time wasted, but so is money</a></li>
+    <li><a href="#the-problem-with-vibe-planning">The Problem with &ldquo;Vibe-Planning&rdquo;</a></li>
+    <li><a href="#research-ask-for-questions-not-solutions">Research: Ask for Questions, Not Solutions</a></li>
+    <li><a href="#plan-create-the-blueprint">Plan: Create the Blueprint</a></li>
+    <li><a href="#implement-build-it-piece-by-piece">Implement: Build It, Piece by Piece</a></li>
+    <li><a href="#re-planning-plans-change">Re-planning: Plans Change</a></li>
+    <li><a href="#tips-and-tricks">Tips and Tricks</a></li>
   </ul>
 </nav>
 	</div>
 </div><div class="content post__content clearfix">
-			<p>So, you&rsquo;ve got a great process down for developing your code. You&rsquo;ve got great documentation, 100% test coverage, good git branching and tagging, and all the other detailed steps for generating code.</p>
-<p>It sure is a lot of typing, though, isn&rsquo;t it? Very repititious. Obviously, you should automate those steps! You&rsquo;re only a little bit away from typing in &ldquo;Write me an app that does X,Y, and Z!&rdquo; and then taking a nap while it does the work!</p>
-<p>Not so fast&hellip;</p>
-<p>Automating an AI-driven process sounds great on paper. You feed commands to the AI, it spits out code, another script runs the tests, and round and round it goes. It&rsquo;s the dream of frictionless development.</p>
-<p>The problem is, when automation goes wrong, it can go wrong in a big, expensive, and baffling way.</p>
-<h1 id="when-it-goes-wrong-it-goes-really-wrong">When it goes wrong, it goes really wrong</h1>
-<p>An automated loop that includes an AI is like giving a junior developer who has never seen your project the keys to the car, and then telling them to just keep driving. What could possibly go wrong?</p>
-<h2 id="files-will-be-created-all-over-the-place">Files will be created all over the place</h2>
-<p>One of the first things you&rsquo;ll notice is a complete mess in your project structure. The AI doesn&rsquo;t have a &ldquo;map&rdquo; of your project in its head. It only works with the context you give it. If you tell it to &ldquo;create a new service for processing widgets,&rdquo; it might create <code>src/services/widget_processing_service.py</code> one time, and <code>src/widget_processor.py</code> the next.</p>
-<p>It will then build upon the mess it just made. Your automation script, unaware of the chaos, will feed this new, misplaced file back into the context for the next step. The AI sees the new file and assumes that&rsquo;s where things are supposed to go now.</p>
-<p>This is where the term &ldquo;AI slop&rdquo; comes from. It&rsquo;s just crap piled on top of crap, all at machine speed. You can end up with a tangled, un-maintainable directory structure in minutes.</p>
-<h2 id="tests-will-fail-over-and-over-again">Tests will fail, over and over again</h2>
-<p>With all these new, misplaced files and hastily written code, your test suite will start to light up like a Christmas tree. Your automation script, trying to be helpful, might try to fix them.</p>
-<p>&ldquo;Fix the failing test,&rdquo; it commands the AI. The AI, again with limited context, might &ldquo;fix&rdquo; it by changing an assertion from <code>True</code> to <code>False</code>, or by commenting out the entire test. Congratulations, the test passes now.</p>
-<p>Debugging real failures becomes a nightmare. An automated loop can get stuck on the same subtle error, trying slightly different - but equally wrong - solutions over and over. Worse, you can get into a &ldquo;whack-a-mole&rdquo; situation. A fix for one test breaks another. The automated fix for <em>that</em> test then breaks the first one it fixed.</p>
-<h2 id="uh-does-the-app-even-work">Uh, Does the app even work?</h2>
-<p>Let&rsquo;s say you manage to get past the file mess and the looping test failures. You have an app that the automation says is &ldquo;done.&rdquo; Does it actually do what you wanted?</p>
-<p>Maybe. But what about the details you didn&rsquo;t think to specify?</p>
-<p>Your design may have left out critical parts of a real-world application. Things like:</p>
+			<p>Let&rsquo;s say you have a problem, and you&rsquo;re pretty sure that writing an app is the solution. Maybe you want a basic inventory system for your small business. Or maybe you have a small piece of a large legacy system that needs upgrading. It doesn&rsquo;t matter what it is.</p>
+<p>You have a problem, you want software, and you want to make the most of agentic development.</p>
+<h2 id="the-problem-with-vibe-planning">The Problem with &ldquo;Vibe-Planning&rdquo;</h2>
+<p>The impulse is to just start chatting with an AI. You describe your problem, the AI suggests something, you correct it, it suggests something else, and you keep going back and forth until you have what <em>seems</em> like a solid plan.</p>
+<p>This is &ldquo;vibe-planning.&rdquo; It feels productive, but it has a major flaw. The result is what <em>you</em> think is a good plan, which may or may not actually be a good plan. An AI will happily follow you down a bad path if you lead it there.</p>
+<p>There&rsquo;s a better way. The cool kids are calling it &ldquo;Research, Plan, and Implement&rdquo;.</p>
+<h2 id="research-ask-for-questions-not-solutions">Research: Ask for Questions, Not Solutions</h2>
+<p>This first step feels a little backward, but it&rsquo;s the most important one. You start by giving the agent a rough idea of what you want to do.</p>
+<p>&ldquo;I&rsquo;m trying to keep track of the widgets I have in stock, and I haven&rsquo;t found anything that really fits my needs.&rdquo;</p>
+<p>Here&rsquo;s the key: don&rsquo;t ask for solutions, ask for <strong>questions</strong>. Your goal is to force the AI to think about the problem space and help you uncover things you haven&rsquo;t considered.</p>
+<p>For example: &ldquo;I need to write a simple inventory system. What are things I should consider? Please don&rsquo;t offer solutions, just keep asking questions until you have enough information to develop a good plan.&rdquo;</p>
+<p>This can take awhile, with a lot of back and forth. You&rsquo;ll update your prompt with answers to its questions, and it will ask more questions based on your answers.</p>
 <ul>
-<li>What happens the very first time it runs, when there&rsquo;s no data or config file?</li>
-<li>How does it handle a sudden crash? Does it clean up after itself?</li>
-<li>Is there any logging or observation instrumentation to see what it&rsquo;s doing?</li>
+<li>You may not have answers to all of the questions. That&rsquo;s fine. Open up a new conversation with the AI and work on getting answers to those specific points.</li>
+<li>Be sure to include your priorities. Do you need to start adding things to your inventory <em>now</em>, but querying them can wait a bit? Then say so.</li>
+<li>Your goal is to create a comprehensive <strong>overview</strong> of everything that will be involved with making your app. You mostly want bullet points. Avoid getting into the weeds; you&rsquo;ll dig deeper during the &ldquo;plan&rdquo; part.</li>
 </ul>
-<p>The automation built exactly what you asked for, but what you asked for wasn&rsquo;t complete. It may do what you <em>designed</em>, but the design may not be what you were <em>thinking</em>. This is why user validation - with you as the first user - is so important. You have to run the thing and see if it&rsquo;s even close to what you intended.</p>
-<h2 id="not-only-is-time-wasted-but-so-is-money">Not only is time wasted, but so is money</h2>
-<p>This whole automated misadventure isn&rsquo;t just wasting your time; it&rsquo;s costing you money.</p>
-<p>AI APIs aren&rsquo;t free. Every time your script gets caught in a loop trying to fix a test, it&rsquo;s making another API call. It&rsquo;s entirely possible to burn through your budget for the month in a single afternoon while your automated script dutifully tries to solve a problem it doesn&rsquo;t have the context to understand.</p>
-<h1 id="mitigation">Mitigation</h1>
-<p>This doesn&rsquo;t mean you shouldn&rsquo;t automate. It just means you can&rsquo;t go from zero to a fully autonomous, napping-while-it-works system in one step. You need to be smart about it.</p>
+<p>Your final &ldquo;research&rdquo; prompt will likely be many paragraphs long, including details like:</p>
 <ul>
-<li><strong>Automate incrementally.</strong> Don&rsquo;t try to automate the entire development lifecycle at once. Start with one small, repetitive task. Maybe it&rsquo;s just generating a boilerplate file based on a spec. Get that working reliably, then move to the next small piece.</li>
-<li><strong>Build breaks into the workflow.</strong> Your automation should not be a continuous loop. It should run a step, then <em>stop</em>. It should present the results to you for verification. Did it create the files in the right place? Does the code look sane? Once you approve, you can trigger the next step.</li>
-<li><strong>Constantly supervise.</strong> You have to shift your role from typist to supervisor. You are the quality gate. Your job is to review the AI&rsquo;s output at every step, catching the small mistakes before they get baked into the foundation and amplified by the next automated step.</li>
+<li>Programming language</li>
+<li>Frameworks and libraries</li>
+<li>Infrastructure (Where will this run?)</li>
+<li>Deployment process</li>
+<li>User roles and permissions</li>
+<li>&hellip;and more!</li>
+</ul>
+<p>Keep at this step until the agent doesn&rsquo;t have any more significant questions. Save the final, detailed prompt in a text file. You&rsquo;ll be using it a lot.</p>
+<h2 id="plan-create-the-blueprint">Plan: Create the Blueprint</h2>
+<p>Now you take your big research document and start a new session.</p>
+<p>Give the agent the full overview you created. Then, ask it to create a series of high-level steps that build on each other to reach the final goal.</p>
+<p>Once you have that list, copy it into a text file. For each major step, start another conversation. Ask the agent to expand on that single step, breaking it down into smaller, more detailed instructions.</p>
+<p>Specifically tell it not to write any code, only to plan. You are separating the &ldquo;what&rdquo; from the &ldquo;how&rdquo;. You&rsquo;re creating a detailed blueprint before anyone picks up a hammer. Do that for every high-level step.</p>
+<h2 id="implement-build-it-piece-by-piece">Implement: Build It, Piece by Piece</h2>
+<p>This is much like creating the detailed plan, only now you&rsquo;re finally asking for code. You take each small, detailed step from your blueprint and feed it to the agent.</p>
+<p>For example:</p>
+<pre tabindex="0"><code>We are creating an inventory application. We have a step-by-step plan for writing this application.
+
+Our current requirement is to &lt;plan step goes here&gt;.
+
+Develop a detailed, step-by-step plan for satisfying this requirement. It should be broken into small, individual coding tasks.
+
+When all tasks are completed, the application should be runnable and testable by the end-users and/or `curl`. Steps should build on one another, leading towards completion.
+
+Perform only what is needed to satisfy the immediate requirements.
+</code></pre><p>Then you just do that, over and over again. My little resume-writing front-end had almost 200 of these implementation steps, just to give you an idea of the scale.</p>
+<p>The implementation phase is a mix of repetitive boredom and moments of intense troubleshooting. The better your plan, the more boring and predictable the implementation is. That&rsquo;s a good thing.</p>
+<h2 id="re-planning-plans-change">Re-planning: Plans Change</h2>
+<p>You don&rsquo;t have to follow the plan exactly. Sometimes you&rsquo;ll get halfway through a step and realize it&rsquo;s not going the way you want.</p>
+<p>That&rsquo;s not a failure. It&rsquo;s part of the process.</p>
+<p>Go back to the &ldquo;plan&rdquo; stage. Start a new chat, tell the agent what has been completed, what the remaining plan is, and what you don&rsquo;t like about it. Then, get a new, revised plan and carry on from there.</p>
+<h2 id="tips-and-tricks">Tips and Tricks</h2>
+<ul>
+<li><strong>Keep a detailed &ldquo;completed&rdquo; list.</strong> As you finish each small implementation task, add it to a running list.</li>
+<li><strong>Use the completed list.</strong> This list comes in very handy if you need to re-plan. You can give it to the agent as context for what&rsquo;s already done.</li>
+<li><strong>Use <code>git</code>, a lot.</strong> Commit your code after every small, successful step. Add a tag after every successful step. This lets you easily roll back to a &ldquo;last known good&rdquo; state if the AI generates something that breaks the whole application.</li>
 </ul>
 		</div>
 	</article>

@@ -6,7 +6,7 @@
     <description>Recent content on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Oct 2025 08:44:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Oct 2025 18:44:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About the Job Hunt</title>
@@ -84,6 +84,13 @@
       <pubDate>Thu, 31 Jul 2025 13:34:00 +0000</pubDate>
       <guid>/job-hunting/ai-generated-resumes/</guid>
       <description>&lt;p&gt;If you apply on LinkedIn, you may see that a given job has “100+” applicants in less than a day. That’s not a mistake, or a typo.&lt;/p&gt;&#xA;&lt;p&gt;Just because you see so many applicants doesn’t mean you shouldn’t apply if you’re qualified. You should.&lt;/p&gt;&#xA;&lt;p&gt;Adding to the difficulty is that many of those 100+ applicants are faking it. It isn’t difficult to create a resume based on the job description. It’s easy to apply, so plenty of unqualified people just go for it. The potential of getting a job is a huge reward for very little effort.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The problem with AI Generated resumes:&lt;/strong&gt; With the popularization of AI, creating and submitting a tailored resume is easier than ever. It will be perfectly formatted, have relevant bullet points, and follow the STAR method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Development: Research, Plan, Implement</title>
+      <link>/ai/aidev-research-plan-implement/</link>
+      <pubDate>Sun, 12 Oct 2025 18:44:00 +0000</pubDate>
+      <guid>/ai/aidev-research-plan-implement/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s say you have a problem, and you&amp;rsquo;re pretty sure that writing an app is the solution. Maybe you want a basic inventory system for your small business. Or maybe you have a small piece of a large legacy system that needs upgrading. It doesn&amp;rsquo;t matter what it is.&lt;/p&gt;&#xA;&lt;p&gt;You have a problem, you want software, and you want to make the most of agentic development.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-problem-with-vibe-planning&#34;&gt;The Problem with &amp;ldquo;Vibe-Planning&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;The impulse is to just start chatting with an AI. You describe your problem, the AI suggests something, you correct it, it suggests something else, and you keep going back and forth until you have what &lt;em&gt;seems&lt;/em&gt; like a solid plan.&lt;/p&gt;&#xA;&lt;p&gt;This is &amp;ldquo;vibe-planning.&amp;rdquo; It feels productive, but it has a major flaw. The result is what &lt;em&gt;you&lt;/em&gt; think is a good plan, which may or may not actually be a good plan. An AI will happily follow you down a bad path if you lead it there.&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s a better way. The cool kids are calling it &amp;ldquo;Research, Plan, and Implement&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Disappearance of the Entry-Level Job</title>

@@ -6,8 +6,15 @@
     <description>Recent content in About AI on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Oct 2025 08:44:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Oct 2025 18:44:00 +0000</lastBuildDate>
     <atom:link href="/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Development: Research, Plan, Implement</title>
+      <link>/ai/aidev-research-plan-implement/</link>
+      <pubDate>Sun, 12 Oct 2025 18:44:00 +0000</pubDate>
+      <guid>/ai/aidev-research-plan-implement/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s say you have a problem, and you&amp;rsquo;re pretty sure that writing an app is the solution. Maybe you want a basic inventory system for your small business. Or maybe you have a small piece of a large legacy system that needs upgrading. It doesn&amp;rsquo;t matter what it is.&lt;/p&gt;&#xA;&lt;p&gt;You have a problem, you want software, and you want to make the most of agentic development.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-problem-with-vibe-planning&#34;&gt;The Problem with &amp;ldquo;Vibe-Planning&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;The impulse is to just start chatting with an AI. You describe your problem, the AI suggests something, you correct it, it suggests something else, and you keep going back and forth until you have what &lt;em&gt;seems&lt;/em&gt; like a solid plan.&lt;/p&gt;&#xA;&lt;p&gt;This is &amp;ldquo;vibe-planning.&amp;rdquo; It feels productive, but it has a major flaw. The result is what &lt;em&gt;you&lt;/em&gt; think is a good plan, which may or may not actually be a good plan. An AI will happily follow you down a bad path if you lead it there.&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s a better way. The cool kids are calling it &amp;ldquo;Research, Plan, and Implement&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Disappearance of the Entry-Level Job</title>
       <link>/ai/the-disapperance-of-the-entry-level-job/</link>
