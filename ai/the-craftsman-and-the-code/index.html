@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Which AI Model Should I Use For Coding? - Michael Aguilar</title>
+	<title>The Craftsman and the Code - Michael Aguilar</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,12 +83,12 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Which AI Model Should I Use For Coding?</h1>
+			<h1 class="post__title">The Craftsman and the Code</h1>
 			<div class="post__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 16 16"><path d="M8 1c2 0 3.5 2 3.5 4.5S10 9 10 9c3 1 4 2 4 6H2c0-4 1-5 4-6 0 0-1.5-1-1.5-3.5S6 1 8 1"/></svg><span class="meta__text">Michael Aguilar</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2025-09-05T06:09:00Z">September 05, 2025</time></div></div>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2026-01-18T06:16:00Z">January 18, 2026</time></div></div>
 		</header>
 		
 
@@ -97,47 +97,39 @@
 	<div class="toc__menu">
 		<nav id="TableOfContents">
   <ul>
-    <li><a href="#the-cheap-models">The cheap models</a></li>
-    <li><a href="#the-expensive-models">The expensive models</a></li>
-    <li><a href="#the-middle-of-the-road">The middle of the road</a></li>
+    <li><a href="#the-rise-of-the-machine">The Rise of the Machine</a></li>
+    <li><a href="#ai-as-a-digital-cnc">AI as a Digital CNC</a></li>
+    <li><a href="#the-skill-doesnt-vanish-it-transforms">The Skill Doesn&rsquo;t Vanish, It Transforms</a></li>
   </ul>
 </nav>
 	</div>
 </div><div class="content post__content clearfix">
-			<p>Most of the big players (Anthropic, Google, et. al) provide all-in-one solutions for writing code. If that&rsquo;s what you&rsquo;re doing, that&rsquo;s fine, but you may be missing out.</p>
-<p>For one thing, they can be pretty expensive (unless your company is paying for it). Anthropic&rsquo;s best - Opus - can get really expensive, really fast. Admittedly, it still costs less than paying for an overseas team, but if it&rsquo;s coming out of your wallet you&rsquo;re bound to notice.</p>
-<p>Considering how quickly everything is moving, I&rsquo;m sure this post will age like milk.</p>
-<h1 id="thinking-outside-the-big-box-store">Thinking outside the big-box store</h1>
-<p>If you&rsquo;re using an editor or tool that can connect to any OpenAI-compatible endpoint, you&rsquo;ve got options. This is a big deal because it means you aren&rsquo;t locked into one provider&rsquo;s ecosystem and pricing. You can shop around.</p>
-<p>A few third-party options have sprung up to fill this need:</p>
-<ul>
-<li><strong><a href="https://openrouter.ai/">OpenRouter</a></strong> is what I use. It&rsquo;s a pay-as-you-go service that acts as a gateway to dozens of different models, from the cheapest to the most expensive. You fund an account and your balance gets debited as you use it. Simple.</li>
-<li><strong><a href="https://www.together.ai/">Together AI</a></strong> is another popular choice. They focus on providing fast inference for a lot of open-source models, often at very competitive prices.</li>
-<li><strong><a href="https://portkey.ai">Portkey</a></strong> is geared more towards businesses or power users. It offers advanced features like setting budgets, fallback models (if one fails, it tries another), and other guardrails to control costs and improve reliability.</li>
-</ul>
-<p>For those who want to run things themselves, there&rsquo;s <strong><a href="https://docs.litellm.ai/">LiteLLM</a></strong>. It&rsquo;s an open-source project that gives you a unified API to talk to over 100 different LLMs. You can host it yourself, giving you full control over how you route requests, whether it&rsquo;s for a personal project or a full-blown business application. Think of it as a universal remote for LLMs.</p>
-<h1 id="trading-cost-for-capability">Trading cost for capability</h1>
-<p>Every model has what you could call a &ldquo;complexity ceiling.&rdquo; It&rsquo;s the point where a task is just too hard for it. The context window is too small to hold all the relevant information, or the reasoning required is a step too far. Your choice of model determines how high that ceiling is, and what you&rsquo;ll pay to get there.</p>
-<h2 id="the-cheap-models">The cheap models</h2>
-<p>It&rsquo;s tempting to just use the cheapest model available. Tokens are cheap, so why not? The problem is that while the per-token cost is low, the cost in your time and effort can be high.</p>
-<p>Using a weak model is like micromanaging a new intern. You have to break everything down into tiny, explicit steps.</p>
-<p>You might end up with a workflow like this:</p>
-<ol>
-<li>First, you tell it to write the basic code for a function. You can&rsquo;t ask for tests at the same time because it&rsquo;s not &ldquo;smart&rdquo; enough to handle both requests at once. It&rsquo;ll just get confused or do a poor job.</li>
-<li>Once you get the code, you start a new conversation. &ldquo;Okay, now write a unit test for the function you just wrote.&rdquo;</li>
-<li>The test it writes will probably only cover the happy path. So, you have to ask again: &ldquo;Now write tests for the edge cases.&rdquo; This might take a few more tries.</li>
-<li>Finally, after all that, you have to tell it: &ldquo;Now, write the documentation for the function.&rdquo;</li>
-</ol>
-<p>Each step costs time and money. What looked cheap on paper becomes a slow, frustrating process.</p>
-<h2 id="the-expensive-models">The expensive models</h2>
-<p>On the other end, you have the top-tier models like GPT-4 Turbo and Anthropic&rsquo;s Opus. You can throw a complex problem at them, and they often get it right on the first or second try. They write the code, the tests, and the documentation all in one go.</p>
-<p>The work gets done much, much faster. The trade-off is obvious: you have to bring your wallet. Opus, in particular, can chew through a budget so quickly you&rsquo;ll wonder what happened. It&rsquo;s very good, but you have to ask yourself if the speed is worth the significant cost. For some projects, it is. For many, it&rsquo;s overkill.</p>
-<h2 id="the-middle-of-the-road">The middle of the road</h2>
-<p>This brings us to models like Anthropic&rsquo;s Sonnet or Google&rsquo;s Gemini Pro. They&rsquo;re&hellip; well&hellip; they&rsquo;re middle of the road. They&rsquo;re more capable than the cheap models, so you won&rsquo;t have to do as much hand-holding. They&rsquo;re less expensive than the top-tier ones, so your wallet won&rsquo;t scream in pain.</p>
-<p>It&rsquo;s a compromise. You get decent performance for a reasonable price, but you&rsquo;ll still run into that complexity ceiling sooner than you would with an Opus or GPT-4.</p>
-<h1 id="its-your-call">It&rsquo;s your call</h1>
-<p>Ultimately, the choice depends on how you work and what you&rsquo;re working on. Are you doing something simple where a cheap model is good enough? Are you on a tight deadline where the speed of an expensive model justifies the cost? Or are you somewhere in between?</p>
-<p>No matter which model you choose, you&rsquo;ll eventually hit a wall. AI is a tool, and a powerful one, but it doesn&rsquo;t remove the need for a developer to be the architect, the project manager, and the quality checker. You still have to manage the process and step in when the AI gets it wrong.</p>
+			<p>To explain what&rsquo;s happening with AI in software development, it helps to look at how a developer&rsquo;s work is changing - how it was done, how it&rsquo;s being done now, and where it&rsquo;s heading.</p>
+<p>Instead of computers, let&rsquo;s talk about building furniture. It&rsquo;s not a perfect analogy, but it works.</p>
+<p>At some point in history, if you wanted furniture you needed to talk to a skilled craftsman. Anyone who has taken a shot at making simple furniture can attest that it takes more than hammering a few boards together. There are specialized tools and materials, each with their own strengths and weaknesses.</p>
+<p>You have to know about the individual parts, how to make them, and how to put them together. There may be a dozen ways to do any particular step. Learning which materials to use, how to manipulate them, and how to design and make things from the beginning is a craft that can take most of a lifetime to master.</p>
+<p>If you want anything particularly nice, like intricate carvings or special shapes (curved legs on your table or chair), then you need even more tools, and even more knowledge and practice.</p>
+<p>Even simple things are a lot more difficult than they seem. Sawing a board into two pieces isn&rsquo;t <em>that</em> easy. Hammering in nails is not as easy as you might think by watching. Plenty of nails get bent during the process.</p>
+<p>It takes a lot of practice to develop any proficiency with those tools. If a woodworker wants to make furniture for other people, they have to learn and practice even more so that they can deliver what a customer wants.</p>
+<hr>
+<p><em>This discussion will gloss over the mass-manufacturing stage of making furniture. There are some parallels with software development but this is already long enough.</em></p>
+<hr>
+<h2 id="the-rise-of-the-machine">The Rise of the Machine</h2>
+<p>Enter the CNC machine. These are machines which take CAD drawings - digital representations of shapes - and use those drawings to guide machinery to carve the shapes out of wood (or plastic, metal, and more).</p>
+<p>Someone with a CNC machine doesn&rsquo;t need to learn the intricacies of how to manipulate a jigsaw around a complex curve, or how to measure wood down to 1/16th of an inch. The machine does all of that for you. Also significant is that it can do it over and over again with perfect replication.</p>
+<p>A CNC replaces a lot of tools, as well as the knowledge of how to use those tools.</p>
+<p>That doesn&rsquo;t mean it&rsquo;s all automatic. You still need to know how to design those shapes, and how to put them all together. You still need to have a good understanding of the materials. Additionally, you have to know how to use CAD to design those shapes to begin with. CNC machines have their own considerations which you have to learn.</p>
+<p>Ultimately, though, using a CNC machine is faster and more accurate than doing things by hand. A lot of traditional woodworking skills are no longer as important.</p>
+<h2 id="ai-as-a-digital-cnc">AI as a Digital CNC</h2>
+<p>With AI, software development is going through a similar process.</p>
+<p>Until just a couple of years ago, writing software required a lot of manual labor. A project that might have taken months of effort can now be completed in a fraction of the time. A large, complex feature can be built in about one-third of the time it would have taken previously. That&rsquo;s because AI - the CNC of software development - can do the manual work.</p>
+<p>That doesn&rsquo;t mean that AI can do all the work. The developer still has to know a lot about how things should be put together. It&rsquo;s less effort, but it isn&rsquo;t zero effort. Just because someone knows how to use a CNC machine doesn&rsquo;t mean they&rsquo;re going to know how to design the right pieces or how to properly assemble them.</p>
+<p>On the other hand, work that used to require a team of four or more people can now potentially be handled by one.</p>
+<h2 id="the-skill-doesnt-vanish-it-transforms">The Skill Doesn&rsquo;t Vanish, It Transforms</h2>
+<p>The core message is that powerful tools don&rsquo;t eliminate the need for skill; they just change where the skill is applied. A CNC operator may not need the muscle memory to saw a straight line, but they must master CAD, understand material tolerances, and know how to assemble the final product. The craftsmanship moves from the hand to the mind.</p>
+<p>In the same way, a developer using AI writes less manual code but takes on a more critical role as an architect and a quality gatekeeper. They must design the overall system, guide the AI, review its output, and integrate the final components. The skill is less about the act of typing and more about the vision for the final product.</p>
+<p>A powerful tool in the hands of a novice will only help them make a mess faster. In the hands of an expert, however, that same tool allows them to achieve results that were previously impractical or impossible. Both woodworking and software development still belong to the skilled craftsperson, even if their tools look very different than they did a decade ago.</p>
+
 		</div>
 	</article>
 </main>
