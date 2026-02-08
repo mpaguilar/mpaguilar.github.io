@@ -6,8 +6,15 @@
     <description>Recent content in About AI on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Feb 2026 08:16:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Feb 2026 09:02:00 +0000</lastBuildDate>
     <atom:link href="/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vibe coding still sucks</title>
+      <link>/ai/vibe-coding-still-sucks/</link>
+      <pubDate>Sat, 07 Feb 2026 09:02:00 +0000</pubDate>
+      <guid>/ai/vibe-coding-still-sucks/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/ai/vibe-coding-still-sucks/confused_agent.png&#34;&#xA;    alt=&#34;Confused robot&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;the-confusion&#34;&gt;The confusion&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been confused about comments and articles talking about vibe-coding. Many of the comments are along the lines of &amp;ldquo;it&amp;rsquo;s only good for small scripts,&amp;rdquo; or &amp;ldquo;it always generates garbage.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;That seemed at odds with my own experience with AI-assisted coding. I&amp;rsquo;ve been getting great results with &lt;a href=&#34;https://aider.chat&#34;&gt;&lt;code&gt;aider-chat&lt;/code&gt;&lt;/a&gt;. It&amp;rsquo;s a command line app with no sub-agents, utilities, or anything like that. I&amp;rsquo;ve been responsible for much of the planning and guidance, and it&amp;rsquo;s been working well.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Custom Software for Everyone</title>
       <link>/ai/custom-software-for-everyone/</link>

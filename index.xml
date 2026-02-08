@@ -6,7 +6,7 @@
     <description>Recent content on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Feb 2026 08:16:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Feb 2026 09:02:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About the Job Hunt</title>
@@ -84,6 +84,13 @@
       <pubDate>Thu, 31 Jul 2025 13:34:00 +0000</pubDate>
       <guid>/job-hunting/ai-generated-resumes/</guid>
       <description>&lt;p&gt;If you apply on LinkedIn, you may see that a given job has “100+” applicants in less than a day. That’s not a mistake, or a typo.&lt;/p&gt;&#xA;&lt;p&gt;Just because you see so many applicants doesn’t mean you shouldn’t apply if you’re qualified. You should.&lt;/p&gt;&#xA;&lt;p&gt;Adding to the difficulty is that many of those 100+ applicants are faking it. It isn’t difficult to create a resume based on the job description. It’s easy to apply, so plenty of unqualified people just go for it. The potential of getting a job is a huge reward for very little effort.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The problem with AI Generated resumes:&lt;/strong&gt; With the popularization of AI, creating and submitting a tailored resume is easier than ever. It will be perfectly formatted, have relevant bullet points, and follow the STAR method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vibe coding still sucks</title>
+      <link>/ai/vibe-coding-still-sucks/</link>
+      <pubDate>Sat, 07 Feb 2026 09:02:00 +0000</pubDate>
+      <guid>/ai/vibe-coding-still-sucks/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/ai/vibe-coding-still-sucks/confused_agent.png&#34;&#xA;    alt=&#34;Confused robot&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;the-confusion&#34;&gt;The confusion&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been confused about comments and articles talking about vibe-coding. Many of the comments are along the lines of &amp;ldquo;it&amp;rsquo;s only good for small scripts,&amp;rdquo; or &amp;ldquo;it always generates garbage.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;That seemed at odds with my own experience with AI-assisted coding. I&amp;rsquo;ve been getting great results with &lt;a href=&#34;https://aider.chat&#34;&gt;&lt;code&gt;aider-chat&lt;/code&gt;&lt;/a&gt;. It&amp;rsquo;s a command line app with no sub-agents, utilities, or anything like that. I&amp;rsquo;ve been responsible for much of the planning and guidance, and it&amp;rsquo;s been working well.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Custom Software for Everyone</title>
