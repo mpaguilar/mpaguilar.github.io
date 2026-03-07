@@ -6,8 +6,15 @@
     <description>Recent content in About AI on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Feb 2026 09:02:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 08:16:00 +0000</lastBuildDate>
     <atom:link href="/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Turns Senior Devs into Junior Devs</title>
+      <link>/ai/ai-turns-senior-devs-to-junior/</link>
+      <pubDate>Fri, 06 Mar 2026 08:16:00 +0000</pubDate>
+      <guid>/ai/ai-turns-senior-devs-to-junior/</guid>
+      <description>&lt;p&gt;Everyone assumes AI coding assistants are an elevator to the top floor - that junior developers jump straight to senior productivity and seniors become superhuman. The reality is inverted. Right now, AI is resetting senior developers back to junior status, complete with the confusion, trial-and-error, and questionable output that comes with learning something entirely new.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-documentation-desert&#34;&gt;The Documentation Desert&lt;/h2&gt;&#xA;&lt;p&gt;When you learned to code, there were textbooks. Style guides. Stack Overflow threads from 2009 explaining exactly why your regex was failing. With agentic coding, that foundation doesn&amp;rsquo;t exist yet.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Vibe coding still sucks</title>
       <link>/ai/vibe-coding-still-sucks/</link>
