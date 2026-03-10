@@ -6,7 +6,7 @@
     <description>Recent content on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Mar 2026 08:16:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 08:16:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About the Job Hunt</title>
@@ -84,6 +84,13 @@
       <pubDate>Thu, 31 Jul 2025 13:34:00 +0000</pubDate>
       <guid>/job-hunting/ai-generated-resumes/</guid>
       <description>&lt;p&gt;If you apply on LinkedIn, you may see that a given job has “100+” applicants in less than a day. That’s not a mistake, or a typo.&lt;/p&gt;&#xA;&lt;p&gt;Just because you see so many applicants doesn’t mean you shouldn’t apply if you’re qualified. You should.&lt;/p&gt;&#xA;&lt;p&gt;Adding to the difficulty is that many of those 100+ applicants are faking it. It isn’t difficult to create a resume based on the job description. It’s easy to apply, so plenty of unqualified people just go for it. The potential of getting a job is a huge reward for very little effort.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The problem with AI Generated resumes:&lt;/strong&gt; With the popularization of AI, creating and submitting a tailored resume is easier than ever. It will be perfectly formatted, have relevant bullet points, and follow the STAR method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ask Questions Until You Have a Complete Understanding of the Problem</title>
+      <link>/ai/keep-asking-questions/</link>
+      <pubDate>Tue, 10 Mar 2026 08:16:00 +0000</pubDate>
+      <guid>/ai/keep-asking-questions/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/ai/keep-asking-questions/robot_washing_car.png&#34;&#xA;    alt=&#34;Robot washing it&amp;#39;s car&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;You’ve probably seen the “car wash question” floating around AI forums by now. It’s become something of a Turing test for prompting skills, and a lot of LLMs fail it on the first try.&lt;/p&gt;&#xA;&lt;p&gt;Here’s the setup: you ask an LLM, &lt;em&gt;“I need to wash my car. The car wash is 100 yards away. Should I walk or drive?”&lt;/em&gt; A lot of times, the model confidently tells you to walk. After all, it’s only a football field’s distance - why burn gas?&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI Turns Senior Devs into Junior Devs</title>

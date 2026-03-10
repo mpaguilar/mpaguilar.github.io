@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Reliably Building AI Systems - Michael Aguilar</title>
+	<title>Ask Questions Until You Have a Complete Understanding of the Problem - Michael Aguilar</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,29 +83,55 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Reliably Building AI Systems</h1>
+			<h1 class="post__title">Ask Questions Until You Have a Complete Understanding of the Problem</h1>
 			<div class="post__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 16 16"><path d="M8 1c2 0 3.5 2 3.5 4.5S10 9 10 9c3 1 4 2 4 6H2c0-4 1-5 4-6 0 0-1.5-1-1.5-3.5S6 1 8 1"/></svg><span class="meta__text">Michael Aguilar</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2025-08-04T12:16:00Z">August 04, 2025</time></div></div>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2026-03-10T08:16:00Z">March 10, 2026</time></div></div>
 		</header>
 		
-<div class="content post__content clearfix">
-			<p>I recently built a production-ready application entirely with AI assistance, 100% written by the AI - not as a proof-of-concept, but as a functional tool designed to solve complex workflow problems.</p>
-<p>It wasn&rsquo;t magic, it was work.</p>
-<p><strong>Update:</strong> The application code is now over 5,600 lines of code, plus 16,000 lines of code in 883 tests giving 100% coverage including branches.</p>
-<p>What makes it noteworthy for decision-makers:</p>
-<p><strong>Process over novelty:</strong> The system follows a structured ReAct framework (reasoning + action steps), requiring clear guardrails to ensure reliability.</p>
-<p><strong>Engineered for real use:</strong> 2,000+ lines of maintainable code, 99% test coverage, and built for extensibility across domains (e.g., swapping tools without rewriting core logic).</p>
-<p><strong>No magic, just rigor:</strong> To achieve this, I developed repeatable procedures: iterative validation cycles, strict quality thresholds, and oversight habits to direct AI output toward robust results.</p>
-<p><strong>Not just a prompt:</strong> This wasn’t about prompting an AI to &ldquo;code for me.&rdquo; It was about crafting a disciplined methodology to leverage AI responsibly - where human oversight defines requirements, verifies outputs, and enforces standards the AI alone couldn’t provide.</p>
-<p><strong>The outcome?</strong> A tool that works predictably today and adapts to future needs. For leaders evaluating AI integration: the system’s reliability stems from process design, not the technology itself.</p>
-<p><strong>Why this matters for your team:</strong>
-If you’re exploring AI-assisted development (but need solutions that meet enterprise standards), I focus on practical execution: building guardrails, not hype.</p>
-<p><strong>See for yourself:</strong>
-The code is hosted on <a href="https://github.com/mpaguilar/msa-toy">GitHub</a></p>
-<p>Open to connect with companies prioritizing thoughtful, sustainable AI adoption.</p>
+
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-helpfulness-trap">The Helpfulness Trap</a></li>
+    <li><a href="#the-safety-valve">The Safety Valve</a></li>
+    <li><a href="#dont-chat---compile">Don’t Chat - Compile</a></li>
+    <li><a href="#the-real-lesson">The Real Lesson</a></li>
+  </ul>
+</nav>
+	</div>
+</div><div class="content post__content clearfix">
+			<figure><img src="/ai/keep-asking-questions/robot_washing_car.png"
+    alt="Robot washing it&#39;s car">
+</figure>
+
+<p>You’ve probably seen the “car wash question” floating around AI forums by now. It’s become something of a Turing test for prompting skills, and a lot of LLMs fail it on the first try.</p>
+<p>Here’s the setup: you ask an LLM, <em>“I need to wash my car. The car wash is 100 yards away. Should I walk or drive?”</em> A lot of times, the model confidently tells you to walk. After all, it’s only a football field’s distance - why burn gas?</p>
+<p>But stop and think about everything that answer assumes. Is the car already <em>at</em> the car wash? Is it even drivable? Maybe you’re going there to meet a friend who’s washing <em>their</em> car, or you’re a detailer arriving for a shift, or the vehicle has two flat tires and a dead battery. The “obvious” answer dissolves the moment you peek under the hood of the scenario.</p>
+<p>This isn’t just a party trick. It’s a perfect illustration of how LLMs think - and why your interaction style should change if you want reliable results.</p>
+<h2 id="the-helpfulness-trap">The Helpfulness Trap</h2>
+<p>Language models are optimized to be helpful and appear competent. When you present them with an ambiguous scenario, they don’t pause to ask whether you’re running a con. A human hearing that car wash question might squint and ask, <em>“Wait, is this a trick?”</em> An LLM just pattern-matches to the shortest path between your words and a plausible answer. One hundred yards? That’s walking distance. Case closed.</p>
+<p>The problem isn’t stupidity; it’s eagerness. These systems are designed to reduce friction, which means they’ll fill in your gaps with the most statistically likely assumptions. They don’t know what they don’t know, and they certainly won’t admit it unless you force the issue.</p>
+<h2 id="the-safety-valve">The Safety Valve</h2>
+<p>There’s a single phrase that inoculates you against this specific failure mode. At the end of <strong>every</strong> prompt - literally every time you hit enter - append this instruction:</p>
+<blockquote>
+<p><em>Ask questions until you have a complete understanding of the problem.</em></p></blockquote>
+<p>That’s it. No complex chain-of-thought templates, no JSON schemas, just a mandate to interrogate the premises.</p>
+<p>When you add this constraint, the behavior shift is immediate. Instead of one-shotting an answer, the model switches into discovery mode. It will ask whether the car is currently at your location, whether you possess the keys, whether you’re transporting cleaning supplies that would be unwieldy on foot. It surfaces the <em>unknown unknowns</em> - the context you didn’t realize was missing because you were too close to your own problem.</p>
+<p>Be warned: this changes the rhythm of the interaction. You may spend twenty minutes answering clarifying questions before a single line of code is written or a decision is rendered. I’ve burned entire afternoons chasing down edge cases with an LLM that I would have missed otherwise. But that time isn’t wasted; it’s front-loaded risk management.</p>
+<h2 id="dont-chat---compile">Don’t Chat - Compile</h2>
+<p>Here’s where most people leave money on the table. When the model fires back its questions, the natural urge is to reply inline, creating a branching conversation tree. Resist this. Instead, treat your prompt as a living document.</p>
+<p>When the LLM asks, <em>“Is the car currently operational?”</em> don’t just type “Yes” in the chat box. Scroll up to your original prompt, add the answer to the context, and resubmit the whole thing. Repeat until you have a single, comprehensive scenario description that accounts for every constraint, preference, and boundary condition.</p>
+<p>Why go to the trouble? Because conversational drift is real. The longer the thread, the more the model fixates on recent turns and forgets the original goal. By iterating on the <em>root</em> prompt, you’re building a specification that even a weaker model can execute against. Test it yourself: run the car wash question through a lightweight local model using this iterative clarification method. You’ll get a nuanced, conditional answer that acknowledges the ambiguity - something that much larger models fail at when given the naive version.</p>
+<h2 id="the-real-lesson">The Real Lesson</h2>
+<p>The car wash problem isn’t about cars or walking. It’s about the dangerous comfort of apparent clarity. When you assume the LLM shares your context, you get confident nonsense. When you force it to excavate the full shape of the problem first, you get useful work.</p>
+<p>In practical terms, this means your job shifts from <em>asking</em> to <em>specifying</em>. You become the guardian of the missing context, the one who knows that “100 yards” could mean a stroll across a parking lot or a trek through a minefield depending on what’s left unsaid. The developers who treat LLMs like mind-reading oracles will keep getting burned by the edge cases. The ones who treat them like diligent interns - bright, eager, but requiring exhaustive briefing - will find that even modest tools become remarkably capable.</p>
+<p>Try it on the car wash question. Watch how quickly the “obvious” answer evaporates once the machine starts asking the questions instead of answering them.</p>
+
 		</div>
 	</article>
 </main>

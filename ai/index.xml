@@ -6,8 +6,15 @@
     <description>Recent content in About AI on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Mar 2026 08:16:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 08:16:00 +0000</lastBuildDate>
     <atom:link href="/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ask Questions Until You Have a Complete Understanding of the Problem</title>
+      <link>/ai/keep-asking-questions/</link>
+      <pubDate>Tue, 10 Mar 2026 08:16:00 +0000</pubDate>
+      <guid>/ai/keep-asking-questions/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/ai/keep-asking-questions/robot_washing_car.png&#34;&#xA;    alt=&#34;Robot washing it&amp;#39;s car&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;You’ve probably seen the “car wash question” floating around AI forums by now. It’s become something of a Turing test for prompting skills, and a lot of LLMs fail it on the first try.&lt;/p&gt;&#xA;&lt;p&gt;Here’s the setup: you ask an LLM, &lt;em&gt;“I need to wash my car. The car wash is 100 yards away. Should I walk or drive?”&lt;/em&gt; A lot of times, the model confidently tells you to walk. After all, it’s only a football field’s distance - why burn gas?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>AI Turns Senior Devs into Junior Devs</title>
       <link>/ai/ai-turns-senior-devs-to-junior/</link>
