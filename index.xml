@@ -90,7 +90,7 @@
       <link>/ai/classic-ml-w-modern-models/</link>
       <pubDate>Fri, 31 Jul 2026 13:09:00 +0000</pubDate>
       <guid>/ai/classic-ml-w-modern-models/</guid>
-      <description>&lt;p&gt;Classic ML - classification, labeling, the boring stuff - is where the real money is in an AI pipeline. Not the billion-parameter model. The classifier that runs on a CPU and costs nothing.&lt;/p&gt;&#xA;&lt;p&gt;Everyone wants to talk about frontier models. Nobody wants to talk about stage 1. But stage 1 is where most pipelines live or die, and a well-trained classifier will outperform a frontier model on that work every time - faster, cheaper, more accurate.&lt;/p&gt;</description>
+      <description>&lt;figure&gt;&lt;img src=&#34;/ai/classic-ml-w-modern-models/sorting_robot.png&#34;&#xA;    alt=&#34;Sorting Robot&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Classic ML - classification, labeling, the boring stuff - is where the real money is in an AI pipeline. Not the billion-parameter model. The classifier that runs on a CPU and costs nothing.&lt;/p&gt;&#xA;&lt;p&gt;Everyone wants to talk about frontier models. Nobody wants to talk about stage 1. But stage 1 is where most pipelines live or die, and a well-trained classifier will outperform a frontier model on that work every time - faster, cheaper, more accurate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ask Questions Until You Have a Complete Understanding of the Problem</title>
