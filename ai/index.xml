@@ -6,8 +6,15 @@
     <description>Recent content in About AI on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Mar 2026 08:16:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 13:09:00 +0000</lastBuildDate>
     <atom:link href="/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Classic ML with Modern Models</title>
+      <link>/ai/classic-ml-w-modern-models/</link>
+      <pubDate>Fri, 31 Jul 2026 13:09:00 +0000</pubDate>
+      <guid>/ai/classic-ml-w-modern-models/</guid>
+      <description>&lt;p&gt;Classic ML - classification, labeling, the boring stuff - is where the real money is in an AI pipeline. Not the billion-parameter model. The classifier that runs on a CPU and costs nothing.&lt;/p&gt;&#xA;&lt;p&gt;Everyone wants to talk about frontier models. Nobody wants to talk about stage 1. But stage 1 is where most pipelines live or die, and a well-trained classifier will outperform a frontier model on that work every time - faster, cheaper, more accurate.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ask Questions Until You Have a Complete Understanding of the Problem</title>
       <link>/ai/keep-asking-questions/</link>
