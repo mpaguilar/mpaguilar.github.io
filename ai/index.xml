@@ -6,15 +6,8 @@
     <description>Recent content in About AI on Michael Aguilar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2026 22:08:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 13:09:00 +0000</lastBuildDate>
     <atom:link href="/ai/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Not the Datacenters, How We Build Them</title>
-      <link>/ai/not-the-datacenters-how-we-build-them/</link>
-      <pubDate>Wed, 09 Sep 2026 22:08:00 +0000</pubDate>
-      <guid>/ai/not-the-datacenters-how-we-build-them/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a fan of AI. I don&amp;rsquo;t dispute that, and I won&amp;rsquo;t pretend otherwise. I use it every day, and part of my income comes from helping other people use it. I&amp;rsquo;m about as biased toward it as a person can get.&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t even mind that it needs huge datacenters, or that those datacenters demand enormous amounts of power and water. That&amp;rsquo;s a real cost, and it&amp;rsquo;s one I&amp;rsquo;m mostly willing to accept.&lt;/p&gt;&#xA;&lt;p&gt;What I mind - what I mind very much - is &lt;em&gt;how&lt;/em&gt; these datacenters are being rolled out. They&amp;rsquo;re being forced onto communities without regard for those communities, or for their impact on the rest of the world in general. And when people push back, they get dismissed. &amp;ldquo;Get used to it.&amp;rdquo; &amp;ldquo;AI is the future.&amp;rdquo; As if that settles the matter.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Classic ML with Modern Models</title>
       <link>/ai/classic-ml-w-modern-models/</link>
