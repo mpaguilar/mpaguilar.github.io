@@ -86,6 +86,76 @@
 	<article class="list__item post">
 	
 	<figure class="list__thumbnail thumbnail">
+		<a class="thumbnail__link" href="/ai/ai-development-good-and-bad/">
+		<img class="thumbnail__image" src="/thumbnails/robot_head_90x90.png" alt="AI development: the good and bad">
+		</a>
+	</figure>
+
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/ai/ai-development-good-and-bad/" rel="bookmark">
+			AI development: the good and bad
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 16 16"><path d="M8 1c2 0 3.5 2 3.5 4.5S10 9 10 9c3 1 4 2 4 6H2c0-4 1-5 4-6 0 0-1.5-1-1.5-3.5S6 1 8 1"/></svg><span class="meta__text">Michael Aguilar</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2025-08-02T09:44:00Z">August 02, 2025</time></div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>There is a lot of discussion about using AI for development. Much of it is over-stated hype, either for or against.</p>
+<p>&ldquo;AI only turns out garbage&rdquo; is what some people will tell you.</p>
+<p>&ldquo;AI will replace developers&rdquo; is what others will say.</p>
+<p>Like most things, the truth is somewhere in-between.</p>
+<h2 id="summary">Summary</h2>
+<p>AI-assisted development can help create code faster, but pitfalls like amplified design flaws and cascading errors demand careful handling</p>
+<p>This article cuts through the hype by showing how unchecked AI use mirrors real-world failures like Knight Capital&rsquo;s $500M loss (caused by human process gaps, not technology).</p>
+<p>Even skilled developers like &ldquo;Alice, Bob, and Charlie&rdquo; introduce subtle mistakes when inheriting code under time pressure, and AI accelerates these risks by acting like a new developer every time you hit &ldquo;enter&rdquo; - forgetting context, skipping safeguards, and magnifying poor documentation or rushed decisions.</p>
+<p>It is important that <em>you</em> need to enforce defensive practices (like file operation safeguards and explicit error checks) while juggling roles as architect, reviewer, and quality gatekeeper to prevent small oversights from exploding at machine speed.</p>
+	</div>
+	<div class="post__toc toc post__toc-summary">
+		<div class="toc__blurb">On this page...</div>
+		<div class="toc__menu">
+			
+			
+			
+			<nav id="TableOfContents">
+  <ul>
+    <li><a href="/ai/ai-development-good-and-bad/#summary">Summary</a>
+      <ul>
+        <li><a href="/ai/ai-development-good-and-bad/#knight-capital-group">Knight Capital Group</a></li>
+      </ul>
+    </li>
+    <li><a href="/ai/ai-development-good-and-bad/#a-tale-of-three-developers">A tale of three developers</a>
+      <ul>
+        <li><a href="/ai/ai-development-good-and-bad/#alice-writes-some-code">Alice writes some code</a></li>
+        <li><a href="/ai/ai-development-good-and-bad/#bob-writes-some-code">Bob writes some code</a></li>
+        <li><a href="/ai/ai-development-good-and-bad/#charlie-writes-some-code">Charlie writes some code</a></li>
+        <li><a href="/ai/ai-development-good-and-bad/#what-is-hidden-in-this-example">What is hidden in this example</a></li>
+      </ul>
+    </li>
+    <li><a href="/ai/ai-development-good-and-bad/#ai-accelerates-the-development-process">AI accelerates the development process</a>
+      <ul>
+        <li><a href="/ai/ai-development-good-and-bad/#ai-amplifies-mistakes">AI amplifies mistakes</a></li>
+      </ul>
+    </li>
+    <li><a href="/ai/ai-development-good-and-bad/#defensive-ai-coding">Defensive AI coding</a>
+      <ul>
+        <li><a href="/ai/ai-development-good-and-bad/#experience-matters">Experience matters</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+		</div>
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/ai/ai-development-good-and-bad/">Read more…</a>
+	</div>
+</article>
+<article class="list__item post">
+	
+	<figure class="list__thumbnail thumbnail">
 		<a class="thumbnail__link" href="/ai-learning/prompt-tutorial/">
 		<img class="thumbnail__image" src="/thumbnails/reclining_reading_robot_90x90.png" alt="More About Prompts">
 		</a>
