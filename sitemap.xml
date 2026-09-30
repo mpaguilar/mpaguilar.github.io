@@ -35,10 +35,16 @@
     <loc>/job-hunting/ai-generated-resumes/</loc>
     <lastmod>2025-07-31T13:34:00+00:00</lastmod>
   </url><url>
-    <loc>/ai/</loc>
-    <lastmod>2026-09-09T00:00:00+00:00</lastmod>
+    <loc>/posts/</loc>
+    <lastmod>2026-09-30T18:27:43+00:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2026-09-30T18:27:43+00:00</lastmod>
+  </url><url>
+    <loc>/posts/floor-drops-ceiling-rises/</loc>
+    <lastmod>2026-09-30T18:27:43+00:00</lastmod>
+  </url><url>
+    <loc>/ai/</loc>
     <lastmod>2026-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/ai/not-the-datacenters-how-we-build-them/</loc>
@@ -115,8 +121,6 @@
   </url><url>
     <loc>/ai/ai-development-good-and-bad/</loc>
     <lastmod>2025-08-02T09:44:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
   </url><url>
     <loc>/tags/</loc>
   </url>
